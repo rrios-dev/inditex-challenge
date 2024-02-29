@@ -1,7 +1,8 @@
-import useAnimatedRouter from "@/pods/router/hooks/use-animated-router";
 import cls from "classnames";
 import _Link from "next/link";
 import { forwardRef } from "react";
+
+import useAnimatedRouter from "@/pods/router/hooks/use-animated-router";
 
 import { LinkProps } from "./interfaces";
 import styles from "./link.module.scss";

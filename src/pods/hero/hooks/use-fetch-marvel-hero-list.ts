@@ -1,5 +1,6 @@
-import { getCharacters } from '@/pods/providers/marvel/public-marvel.service';
 import useSWR from 'swr/infinite';
+
+import { getCharacters } from '@/pods/providers/marvel/public-marvel.service';
 
 const fetcher = async ({ search, offset }: any) => {
     const response = await getCharacters({ params: { limit: 50, offset: offset * 50, ...(search && { nameStartsWith: search }) } })

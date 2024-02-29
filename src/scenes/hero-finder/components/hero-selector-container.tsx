@@ -1,14 +1,15 @@
 "use client";
 
+import { useSearchParams } from "next/navigation";
+import { useEffect } from "react";
+import { useIntersectionObserver } from "usehooks-ts";
+
 import Flex from "@/components/flex";
 import { HeroCardProps } from "@/components/hero-card/interfaces";
 import HeroSelector from "@/components/hero-selector/hero-selector";
 import Spinner from "@/components/spinner";
 import useFavs from "@/pods/favs/hooks/use-favs";
 import useFetchMarvelHeroList from "@/pods/hero/hooks/use-fetch-marvel-hero-list";
-import { useSearchParams } from "next/navigation";
-import { useEffect } from "react";
-import { useIntersectionObserver } from "usehooks-ts";
 
 const HeroSelectorContainer = () => {
   const searchParams = useSearchParams();

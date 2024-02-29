@@ -2,6 +2,7 @@
 import Image from "next/image";
 
 import AnimatedLink from "../animated-link";
+
 import HeaderHeartButton from "./components/header-heart-button";
 import styles from "./header.module.scss";
 

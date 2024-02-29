@@ -1,9 +1,11 @@
-import Typography from "@/components/typography";
 import Image from "next/image";
+
+import Typography from "@/components/typography";
 
 import AnimatedLink from "../animated-link/animated-link";
 import ButtonBase from "../button-base";
 import Heart from "../heart";
+
 import styles from "./hero-card.module.scss";
 import { HeroCardProps } from "./interfaces";
 
@@ -17,7 +19,7 @@ const HeroCard = ({ id, imageSrc, name, onFav, favStatus }: HeroCardProps) => (
         className="hero-image"
         priority
         layout="fill"
-        objectFit="cover"
+        objectFit="fill"
         src={imageSrc}
         objectPosition="center"
         alt={`hero image of ${name}`}

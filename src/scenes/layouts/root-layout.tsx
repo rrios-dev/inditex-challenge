@@ -1,9 +1,11 @@
-import Header from "@/components/header/header";
-import FavsProvider from "@/pods/favs/favs-provider";
-import "@/theme/global.scss";
 import type { Metadata } from "next";
 import { Roboto_Condensed } from "next/font/google";
 import { ReactNode } from "react";
+
+import Header from "@/components/header/header";
+import FavsProvider from "@/pods/favs/favs-provider";
+
+import "@/theme/global.scss";
 
 import styles from "./root-layout.module.scss";
 

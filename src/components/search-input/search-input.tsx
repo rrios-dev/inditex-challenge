@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 import ButtonBase from "../button-base";
 import Flex from "../flex";
 import Typography from "../typography";
+
 import { SearchInputProps } from "./interfaces";
 import styles from "./search-input.module.scss";
 

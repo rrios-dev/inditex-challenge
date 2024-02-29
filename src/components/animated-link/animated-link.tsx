@@ -1,6 +1,7 @@
+import { forwardRef } from "react";
+
 import Link from "@/components/link";
 import useAnimatedRouter from "@/pods/router/hooks/use-animated-router";
-import { forwardRef } from "react";
 
 import { AnimatedLinkProps } from "./interfaces";
 

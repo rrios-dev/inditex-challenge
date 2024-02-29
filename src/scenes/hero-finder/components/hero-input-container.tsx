@@ -1,8 +1,9 @@
 "use client";
+import { useSearchParams } from "next/navigation";
+
 import SearchInput from "@/components/search-input";
 import useFetchMarvelHeroList from "@/pods/hero/hooks/use-fetch-marvel-hero-list";
 import useAnimatedRouter from "@/pods/router/hooks/use-animated-router";
-import { useSearchParams } from "next/navigation";
 
 import styles from "./hero-input-container.module.scss";
 
