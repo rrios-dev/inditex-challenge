@@ -1,5 +1,5 @@
-import Header from '@/components/header/header';
-import '@/theme/global.scss';
+import Header from "@/components/header/header";
+import "@/theme/global.scss";
 import type { Metadata } from "next";
 import { Roboto_Condensed } from "next/font/google";
 
@@ -21,6 +21,6 @@ const RootLayout = ({
       {children}
     </body>
   </html>
-)
+);
 
 export default RootLayout;
