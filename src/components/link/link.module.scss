@@ -1,0 +1,13 @@
+@import '@/theme/theme.scss';
+
+.link {
+    border-radius: $radii-small;
+    &:focus {
+        outline: none;
+    }
+
+    &:focus-visible {
+        outline: $outline-default;
+        outline-offset: $outline-offset;
+    }
+}

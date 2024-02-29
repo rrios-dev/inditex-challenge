@@ -1,0 +1,8 @@
+@import '@/theme/theme.scss';
+
+ul.hero-selector {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(172px, 172px));
+    gap: $sp-4;
+}

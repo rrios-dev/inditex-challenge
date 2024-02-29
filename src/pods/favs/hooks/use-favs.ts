@@ -1,7 +1,7 @@
+'use client';
 import { useContext } from "react";
 
 import favsContext from "../favs-context";
-import favsStorage from "../storage";
 
 const useFavs = () => {
     const ctx = useContext(favsContext);
@@ -12,32 +12,19 @@ const useFavs = () => {
 
     const { favs, setFavs } = ctx;
 
+    const add = (id: number) => setFavs((prev) => ({
+        ids: [...prev.ids, id]
+    }))
 
-    const add = (id: string) => setFavs((prev) => {
-        const newState = {
-            ids: [...prev.ids, id]
-        };
+    const toggle = (id: number) => setFavs((prev) => ({
+        ids: prev.ids.includes(id) ? prev.ids.filter((favId) => favId !== id) : [...prev.ids, id],
+    }));
 
-        favsStorage.set(newState);
+    const remove = (id: number) => setFavs((prev) => ({
+        ids: prev.ids.filter((favId) => favId !== id)
+    }))
 
-        return newState;
-
-    })
-
-    const remove = (id: string) => setFavs((prev) => {
-        const newState = {
-            ids: prev.ids.filter((favId) => favId !== id)
-        };
-
-        favsStorage.set(newState);
-
-        return newState;
-    })
-
-    const clear = () => {
-        setFavs({ ids: [] });
-        favsStorage.clear();
-    };
+    const clear = () => setFavs({ ids: [] });
 
 
     return {
@@ -45,6 +32,7 @@ const useFavs = () => {
         handlers: {
             add,
             remove,
+            toggle,
             clear,
         }
     }

@@ -1,0 +1,5 @@
+@import './border-sizes.scss';
+@import './colors.scss';
+
+$outline-default: $border-default solid $c-primary;
+$outline-offset: 2px;

@@ -1,3 +1,3 @@
 export interface FavsState {
-    ids: string[];
+    ids: number[];
 }

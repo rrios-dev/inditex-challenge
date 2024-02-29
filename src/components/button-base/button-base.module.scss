@@ -6,6 +6,7 @@
     background: none;
     padding: 0;
     cursor: pointer;
+    border-radius: $radii-default;
     display: flex;
     gap: $sp-2;
     align-items: center;
@@ -16,7 +17,8 @@
     }
 
     &:focus-visible {
-        outline: 2px solid $c-primary;
+        outline: $outline-default;
+        outline-offset: $outline-offset;
     }
 
     &:disabled {

@@ -1,7 +1,9 @@
 import Header from "@/components/header/header";
+import FavsProvider from "@/pods/favs/favs-provider";
 import "@/theme/global.scss";
 import type { Metadata } from "next";
 import { Roboto_Condensed } from "next/font/google";
+import { ReactNode } from "react";
 
 const robotoCondensed = Roboto_Condensed({ subsets: ["latin"] });
 
@@ -10,15 +12,17 @@ export const metadata: Metadata = {
   description: "Created by @rriosdev <roberto@rrios.dev>",
 };
 
-const RootLayout = ({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) => (
+interface RootLayoutProps {
+  children: ReactNode;
+}
+
+const RootLayout = ({ children }: Readonly<RootLayoutProps>) => (
   <html lang="en">
     <body className={robotoCondensed.className}>
-      <Header />
-      {children}
+      <FavsProvider>
+        <Header />
+        {children}
+      </FavsProvider>
     </body>
   </html>
 );
