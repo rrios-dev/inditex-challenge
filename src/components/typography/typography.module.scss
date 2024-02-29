@@ -1,0 +1,51 @@
+@import '@/theme/theme.scss';
+
+.typography {
+    color: white;
+}
+
+.variant {
+    &.h1 {
+      font-size: $f-h1-size;
+    }
+    
+    &.h2 {
+      font-size: $f-h2-size;
+    }
+    
+    &.h3 {
+      font-size: $f-h3-size;
+    }
+    
+    &.h4 {
+      font-size: $f-h4-size;
+    }
+    
+    &.h5 {
+      font-size: $f-h5-size;
+    }
+    
+    &.h6 {
+      font-size: $f-h6-size;
+    }
+    
+    &.body1 {
+      font-size: $f-body1-size;
+    }
+    
+    &.body2 {
+      font-size: $f-body2-size;
+    }
+    
+    &.caption {
+      font-size: $f-caption-size;
+    }
+    
+    &.subtitle1 {
+      font-size: $f-subtitle1-size;
+    }
+    
+    &.subtitle2 {
+      font-size: $f-subtitle2-size;
+    }
+}

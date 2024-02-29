@@ -1,6 +1,7 @@
+import Header from '@/components/header/header';
+import '@/theme/global.scss';
 import type { Metadata } from "next";
 import { Roboto_Condensed } from "next/font/google";
-import 'normalize.css';
 
 const robotoCondensed = Roboto_Condensed({ subsets: ["latin"] });
 
@@ -9,14 +10,17 @@ export const metadata: Metadata = {
   description: "Created by @rriosdev <roberto@rrios.dev>",
 };
 
-export default function RootLayout({
+const RootLayout = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <body className={robotoCondensed.className}>{children}</body>
-    </html>
-  );
-}
+}>) => (
+  <html lang="en">
+    <body className={robotoCondensed.className}>
+      <Header />
+      {children}
+    </body>
+  </html>
+)
+
+export default RootLayout;

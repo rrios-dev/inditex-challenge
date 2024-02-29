@@ -1,0 +1,7 @@
+@import 'normalize.css';
+@import './breakpoints.scss';
+@import './fonts.scss';
+
+body {
+    font-size: $f-default-size;
+}
