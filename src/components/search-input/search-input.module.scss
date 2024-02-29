@@ -1,0 +1,26 @@
+@import '@/theme/theme.scss';
+
+.search-input-container {
+    display: flex;
+    gap: $sp-2;
+    align-items: center;
+    justify-content: center;
+    height: 27px;
+
+    border-bottom: $border-thin solid $c-fg;
+    &:has(.search-input:focus-visible) {
+        border-bottom-color: $c-primary;
+    }
+
+    .search-input {
+        appearance: none;
+        border: none;
+        width: 100%;
+        text-transform: uppercase;
+        outline: none;
+
+        &::placeholder {
+            color: $c-grey;
+        }
+    }
+}

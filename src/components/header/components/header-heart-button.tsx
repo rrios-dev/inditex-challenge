@@ -1,5 +1,5 @@
 "use client";
-import ButtonBase from "@/components/button-base";
+import AnimatedLink from "@/components/animated-link";
 import Heart from "@/components/heart";
 import useFavs from "@/pods/favs/hooks/use-favs";
 
@@ -10,13 +10,10 @@ const HeaderHeartButton = () => {
     favs: { ids },
   } = useFavs();
   return (
-    <ButtonBase
-      className={styles["header-heart-button"]}
-      onClick={() => console.log("funciona")}
-    >
-      <Heart />
+    <AnimatedLink className={styles["header-heart-link"]} href="/favs">
+      <Heart status={ids.length > 0 ? "full-black" : "empty"} />
       {ids.length}
-    </ButtonBase>
+    </AnimatedLink>
   );
 };
 

@@ -13,4 +13,5 @@ export interface TypographyProps extends HTMLAttributes<HTMLParagraphElement> {
     | "caption"
     | "subtitle1"
     | "subtitle2";
+    color?: 'bg' | 'fg';
 }

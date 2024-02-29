@@ -1,0 +1,104 @@
+@import '@/theme/theme.scss';
+.flex {
+    display: flex;
+
+    &.dir-row {
+        flex-direction: row;
+    }
+
+    &.dir-column {
+        flex-direction: column;
+    }
+
+    &.justify-start {
+        justify-content: flex-start;
+    }
+
+    &.justify-end {
+        justify-content: flex-end;
+    }
+
+    &.justify-center {
+        justify-content: center;
+    }
+
+    &.justify-between {
+        justify-content: space-between;
+    }
+
+    &.justify-around {
+        justify-content: space-around;
+    }
+
+    &.align-start {
+        align-items: flex-start;
+    }
+
+    &.align-end {
+        align-items: flex-end;
+    }
+
+    &.align-center {
+        align-items: center;
+    }
+
+    &.align-stretch {
+        align-items: stretch;
+    }
+
+    &.wrap-wrap {
+        flex-wrap: wrap;
+    }
+
+    &.wrap-nowrap {
+        flex-wrap: nowrap;
+    }
+
+   &.gap-1 {
+        gap: $sp-1;
+    }
+
+    &.gap-2 {
+        gap: $sp-2;
+    }
+
+    &.gap-3 {
+        gap: $sp-3;
+    }
+
+    &.gap-4 {
+        gap: $sp-4;
+    }
+
+    &.gap-5 {
+        gap: $sp-5;
+    }
+
+    &.gap-6 {
+        gap: $sp-6;
+    }
+
+    &.gap-7 {
+        gap: $sp-7;
+    }
+
+    &.gap-8 {
+        gap: $sp-8;
+    }
+
+    &.gap-9 {
+        gap: $sp-9;
+    }
+
+    &.gap-10 {
+        gap: $sp-10;
+    }
+
+    &.gap-11 {
+        gap: $sp-11;
+    }
+
+    &.gap-12 {
+        gap: $sp-12;
+    }
+}

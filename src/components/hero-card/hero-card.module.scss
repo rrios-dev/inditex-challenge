@@ -6,6 +6,11 @@ a.hero-card {
     position: relative;
     text-decoration: none;
 
+    .image-container {
+        aspect-ratio:  9 / 10;
+        position: relative;
+    }
+
     .bar {
         display: flex;
         gap: $sp-2;
@@ -18,7 +23,7 @@ a.hero-card {
     }
 
     .fav-button {
-        :hover {
+        :hover,&:focus-visible {
             transform: scale(1.3);
             transition: transform $t-default;
         }
@@ -44,7 +49,7 @@ a.hero-card {
         bottom: 0;
         right: 0;
         border-left: 13px solid transparent;
-        border-top: 13px solid $c-bg; /* match the background color of the card */
+        border-top: 13px solid $c-bg;
         transform: rotateZ(90deg);
       }
 

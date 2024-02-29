@@ -5,3 +5,7 @@
 body {
     font-size: $f-default-size;
 }
+
+* {
+    box-sizing: border-box;
+}

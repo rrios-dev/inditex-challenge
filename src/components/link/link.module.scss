@@ -2,6 +2,9 @@
 
 .link {
     border-radius: $radii-small;
+    display: flex;
+    text-decoration: none;
+
     &:focus {
         outline: none;
     }

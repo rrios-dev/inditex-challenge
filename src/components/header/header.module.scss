@@ -1,9 +1,8 @@
 @import '@/theme/theme.scss';
 
 header.header {
-    color: red;
     width: 100%;
-    background-color: black;
+    background-color: $c-fg;
     display: flex;
     justify-content: center;
 }
@@ -15,7 +14,6 @@ div.container {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    color: blue;
 
     @include media(md) {
         padding: $sp-2 $sp-6;

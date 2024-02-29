@@ -1,6 +1,8 @@
 @import '@/theme/theme.scss';
 
 
-button.header-heart-button {
+a.header-heart-link {
     color: $c-bg;
+    gap: $sp-2;
+    align-items: center;
 }

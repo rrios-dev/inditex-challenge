@@ -6,7 +6,7 @@ import { TypographyProps } from "./interfaces";
 import styles from "./typography.module.scss";
 
 const Typography = forwardRef<HTMLParagraphElement, TypographyProps>(
-  ({ children, className, variant = "body1", ...props }, ref) => {
+  ({ children, className, variant = "body1", color = "fg", ...props }, ref) => {
     const tag = useMemo(
       () => (variant.match(/^h\d/) ? variant : "p"),
       [variant]
@@ -17,7 +17,8 @@ const Typography = forwardRef<HTMLParagraphElement, TypographyProps>(
         ...props,
         className: cls(
           styles.typography,
-          `${styles.variant} ${styles[variant]}`,
+          `variant-${styles[variant]}`,
+          `color-${color}`,
           className
         ),
         ref,

@@ -8,15 +8,21 @@ import styles from "./hero-card.module.scss";
 import { HeroCardProps } from "./interfaces";
 
 const HeroCard = ({ id, imageSrc, name, onFav, favStatus }: HeroCardProps) => (
-  <AnimatedLink className={styles["hero-card"]} href={`/hero/${id}`}>
-    <Image
-      className="hero-image"
-      priority
-      width={172}
-      height={172}
-      src={imageSrc}
-      alt={`hero image of ${name}`}
-    />
+  <AnimatedLink
+    className={styles["hero-card"]}
+    href={`/hero/${id}-${name.replace(/(\s|\/|\\|\?)/g, "-").toLowerCase()}`}
+  >
+    <div className={styles["image-container"]}>
+      <Image
+        className="hero-image"
+        priority
+        layout="fill"
+        objectFit="cover"
+        src={imageSrc}
+        objectPosition="center"
+        alt={`hero image of ${name}`}
+      />
+    </div>
     <hr />
     <div className={styles["bar"]}>
       <Typography className={styles.name}>{name}</Typography>

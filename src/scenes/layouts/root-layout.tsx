@@ -5,6 +5,8 @@ import type { Metadata } from "next";
 import { Roboto_Condensed } from "next/font/google";
 import { ReactNode } from "react";
 
+import styles from "./root-layout.module.scss";
+
 const robotoCondensed = Roboto_Condensed({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -21,7 +23,7 @@ const RootLayout = ({ children }: Readonly<RootLayoutProps>) => (
     <body className={robotoCondensed.className}>
       <FavsProvider>
         <Header />
-        {children}
+        <main className={styles["root-layout"]}>{children}</main>
       </FavsProvider>
     </body>
   </html>

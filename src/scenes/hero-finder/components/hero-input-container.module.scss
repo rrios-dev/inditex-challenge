@@ -1,0 +1,9 @@
+@import '@/theme/theme.scss';
+
+.search-input {
+    margin: 0 $sp-2;
+
+    @include media(md) {
+        margin: 0 $sp-6;
+    }
+}
