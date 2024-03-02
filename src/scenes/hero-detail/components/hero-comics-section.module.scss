@@ -1,51 +1,29 @@
 @import '@/theme/theme.scss';
 
 .hero-comics-section {
-    width: 100%;
-    max-width: map-get($breakpoints, desktop);
-    margin: 0 auto;
-    padding: 0 $sp-2;
-
-    @include media(tablet) {
-        padding: 0 $sp-6;
-    }
+    min-height: 405px;
     
     .hero-comics-carousel {
         display: flex;
-        gap: $sp-2;
+        gap: $sp-4;
         overflow-y: auto;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
         -webkit-overflow-scrolling: touch;
-        padding-bottom: $sp-4;
+        padding-bottom: $sp-8;
         &::-webkit-scrollbar {
             width: 10px;
-            height: 8px;
+            height: 4px;
           }
           &::-webkit-scrollbar-thumb {
             background: $c-primary;
-            border-radius: 10px;
           }
           &::-webkit-scrollbar-track {
-            background: transparent;
+            background: $c-grey-light;
           }
           & > div {
-            // scroll-snap-align: start;
-            // flex-shrink: 0;
-            // width: 300px;
-            // height: 300px;
-            // margin-right: 50px;
-            // border-radius: 10px;
-            // background: #eee;
-            // transform-origin: center center;
-            // // transform: scale(1);
-            // transition: transform 0.5s;
-            // position: relative;
-            
-            // display: flex;
-            // justify-content: center;
-            // align-items: center;
-            // font-size: 100px;
+            scroll-snap-align: senter;
+            flex-shrink: 0;
           }
     }
 

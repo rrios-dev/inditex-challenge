@@ -1,3 +1,4 @@
+"use client";
 import { forwardRef } from "react";
 
 import Link from "@/components/link";

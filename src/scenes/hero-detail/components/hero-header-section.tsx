@@ -40,7 +40,12 @@ const HeroHeaderSection = () => {
                 alt="hero image"
               />
             </div>
-            <Flex direction="column" justify="center" gap={2}>
+            <Flex
+              direction="column"
+              justify="center"
+              gap={7}
+              className={styles["hero-header-section-info"]}
+            >
               <Flex gap={4} justify="between" align="center">
                 <Typography variant="h1">{hero?.data?.name}</Typography>
                 <ButtonBase onClick={() => toggle(Number(id))}>
@@ -51,7 +56,9 @@ const HeroHeaderSection = () => {
                   />
                 </ButtonBase>
               </Flex>
-              <Typography>{hero.data?.description}</Typography>
+              {hero.data?.description && (
+                <Typography>{hero.data.description}</Typography>
+              )}
             </Flex>
           </>
         )}

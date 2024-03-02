@@ -1,0 +1,28 @@
+@import '@/theme/theme.scss';
+
+
+.section {
+    width: 100%;
+    max-width: map-get($breakpoints, tablet-lg);
+    margin: 0 auto;
+    padding: 0 $sp-4;
+
+    @include media(tablet) {
+        padding: 0 $sp-12;
+    }
+
+    @include media(desktop) {
+        padding: 0;
+    }
+
+
+    .title {
+        font-size: $f-h2-size;
+        text-transform: uppercase;
+        font-weight: 600;
+
+        @include media(tablet) {
+            font-size: $f-h1-size;
+        }
+    }
+}

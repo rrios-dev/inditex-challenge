@@ -5,10 +5,13 @@ header.header {
     background-color: $c-fg;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: $z-header;
 }
 
 div.container {
-    padding: $sp-2;
+    padding: $sp-4;
     max-width: map-get($breakpoints, desktop);
     display: flex;
     align-items: center;
@@ -16,6 +19,6 @@ div.container {
     width: 100%;
 
     @include media(tablet) {
-        padding: $sp-2 $sp-6;
+        padding: $sp-2 $sp-12;
     }
 }

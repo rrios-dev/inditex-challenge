@@ -1,1 +1,4 @@
-export { default } from '@/scenes/hero-detail/hero-detail.scene';
+export {
+  default,
+  generateMetadata,
+} from "@/scenes/hero-detail/hero-detail.scene";

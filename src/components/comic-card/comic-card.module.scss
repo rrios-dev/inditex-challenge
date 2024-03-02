@@ -17,12 +17,12 @@
     width: 168px;
     display: flex;
     flex-direction: column;
-    gap: $sp-1;
+    gap: $sp-3;
     animation: loading 2s infinite;
     
     .comic-card-skeleton-image {
         background-color: $c-grey;
-        height: 240px;
+        height: 252px;
         width: 168px;
     }
 

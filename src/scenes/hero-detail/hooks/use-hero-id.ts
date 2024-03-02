@@ -1,13 +1,15 @@
 import { useParams } from "next/navigation";
 
+import parseHeroId from "../utils/parse-hero-id";
+
 const useHeroId = () => {
-    const { id } = useParams<{ id: string }>();
+  const { id } = useParams<{ id: string }>();
 
-    const parsedId = id.match(/^(\d+)-/)?.[1];
+  const parsedId = parseHeroId(id);
 
-    if (!parsedId) throw new Error('Invalid hero id');
+  if (!parsedId) throw new Error("Invalid hero id");
 
-    return parsedId;
-}
+  return parsedId;
+};
 
 export default useHeroId;

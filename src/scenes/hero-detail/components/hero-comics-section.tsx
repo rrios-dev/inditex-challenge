@@ -1,6 +1,6 @@
 "use client";
 
-import Flex from "@/components/flex";
+import Section from "@/components/section";
 import Typography from "@/components/typography";
 import useFetchMarvelHero from "@/pods/hero/hooks/use-fetch-marvel-hero";
 
@@ -13,18 +13,30 @@ const HeroComicsSection = () => {
   const id = useHeroId();
   const { hero } = useFetchMarvelHero(id);
 
+  const comics = hero.data?.comics.items;
+
   return (
-    <Flex direction="column" gap={4} className={styles["hero-comics-section"]}>
-      <Typography variant="h1">Comics</Typography>
-      <div className={styles["hero-comics-carousel"]}>
-        {hero.data?.comics.items.map((comic) => (
-          <HeroComicContainer
-            key={comic.resourceURI}
-            id={comic.resourceURI.match(/(\d+)$/)?.[1] ?? ""}
-          />
-        ))}
-      </div>
-    </Flex>
+    <Section title="Comics" className={styles["hero-comics-section"]}>
+      {Boolean(comics?.length) && (
+        <div className={styles["hero-comics-carousel"]}>
+          {comics
+            ? comics.map((comic, idx) => (
+                <HeroComicContainer
+                  key={comic.resourceURI ?? `skeleton-$${idx}`}
+                  id={comic.resourceURI.match(/(\d+)$/)?.[1] ?? ""}
+                />
+              ))
+            : Array.from({ length: 10 })
+                .map(() => ({ resourceURI: "" }))
+                .map((_, idx) => (
+                  <HeroComicContainer key={`skeleton-${idx}`} />
+                ))}
+        </div>
+      )}
+      {comics?.length === 0 && (
+        <Typography variant="body1">No comics available</Typography>
+      )}
+    </Section>
   );
 };
 

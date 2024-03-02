@@ -1,1 +1,1 @@
-export { default } from "@/scenes/layouts/root-layout";
+export { default, metadata } from "@/scenes/layouts/root-layout";

@@ -4,7 +4,7 @@ import ComicCard, { ComicCardProps } from "@/components/comic-card";
 import useFetchMarvelComic from "@/pods/comics/hooks/use-fetch-marvel-comic";
 
 interface HeroComicContainerProps {
-  id: string;
+  id?: string;
 }
 const HeroComicContainer = ({ id }: HeroComicContainerProps) => {
   const { comic, error, isLoading } = useFetchMarvelComic(id);
@@ -15,11 +15,13 @@ const HeroComicContainer = ({ id }: HeroComicContainerProps) => {
   )?.date;
 
   const status: ComicCardProps | null = useMemo(() => {
+    if (!id) return { status: "loading" };
+
     if (error) return { status: "error" };
 
     if (isLoading) return { status: "loading" };
 
-    if (hasData) {
+    if (hasData)
       return {
         status: "success",
         imageSrc: `${comic.data!.thumbnail.path}.${
@@ -31,10 +33,9 @@ const HeroComicContainer = ({ id }: HeroComicContainerProps) => {
         }),
         title: comic.data!.title,
       };
-    }
 
     return null;
-  }, [error, isLoading, hasData, comic.data, releaseDate]);
+  }, [error, isLoading, hasData, comic.data, releaseDate, id]);
 
   return status ? <ComicCard {...status} /> : null;
 };
