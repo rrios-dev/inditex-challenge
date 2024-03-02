@@ -1,9 +1,13 @@
-"use client";
-import { useParams } from "next/navigation";
+import Flex from "@/components/flex";
 
-const HeroDetailScene = () => {
-  const { id } = useParams();
-  return <div>hero detail {id}</div>;
-};
+import HeroComicsSection from "./components/hero-comics-section";
+import HeroHeaderSection from "./components/hero-header-section";
+
+const HeroDetailScene = () => (
+  <Flex direction="column" gap={6}>
+    <HeroHeaderSection />
+    <HeroComicsSection />
+  </Flex>
+);
 
 export default HeroDetailScene;

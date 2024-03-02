@@ -1,0 +1,25 @@
+@import '@/theme/theme.scss';
+
+.hero-header-section {
+    background-color: $c-fg;
+
+    .hero-header-section-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: $sp-12;
+        max-width: map-get($breakpoints, desktop);
+        width: 100%;
+        color: $c-bg;
+        margin: 0 auto;
+
+        @include media(tablet-sm) {
+            grid-template-columns: 278px 3fr;
+        }
+    }
+
+    .hero-header-section-image-container {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 1/1;
+    }
+}

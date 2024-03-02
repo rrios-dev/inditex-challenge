@@ -1,10 +1,14 @@
 $breakpoints: (
   xs: 0,
-  sm: 393px,
-  md: 834px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1512px
+  mobile-sm: 393px,
+  mobile: 576px,
+  tablet-sm: 768px,
+  tablet: 834px,
+  tablet-lg: 992px,
+  laptop: 1024px,
+  desktop-sm: 1200px,
+  desktop: 1512px,
+  desktop-lg: 1920px
 );
 
 @mixin media($breakpoint) {

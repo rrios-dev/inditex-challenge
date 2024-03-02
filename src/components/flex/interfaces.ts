@@ -1,7 +1,7 @@
 import { HTMLProps } from "react";
 
 export type FlexProps<T extends JSX.IntrinsicElements> = HTMLProps<T> & {
-    as?: T;
+    as?: T | keyof JSX.IntrinsicElements;
     direction?: 'row' | 'column';
     justify?: 'start' | 'end' | 'center' | 'between' | 'around';
     align?: 'start' | 'end' | 'center' | 'stretch';

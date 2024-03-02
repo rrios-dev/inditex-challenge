@@ -9,11 +9,11 @@ ul.hero-selector {
     margin: 0;
     padding: 0 $sp-2;
     
-    @include media(sm){
+    @include media(mobile){
         grid-template-columns: repeat(auto-fit, minmax(172px, 1fr));
     }
 
-    @include media(md) {
+    @include media(tablet) {
         padding: 0 $sp-6;
     }
 }

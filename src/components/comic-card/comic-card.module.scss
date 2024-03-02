@@ -1,0 +1,61 @@
+@import '@/theme/theme.scss';
+
+@keyframes loading {
+    0% {
+        filter: brightness(0.5);
+    }
+    50% {
+        filter: brightness(1);
+    }
+    100% {
+        filter: brightness(0.5);
+    }
+}
+
+.comic-card-skeleton {
+    height: 320px;
+    width: 168px;
+    display: flex;
+    flex-direction: column;
+    gap: $sp-1;
+    animation: loading 2s infinite;
+    
+    .comic-card-skeleton-image {
+        background-color: $c-grey;
+        height: 240px;
+        width: 168px;
+    }
+
+    .comic-card-skeleton-text {
+        background-color: $c-grey;
+        height: 36px;
+        width: 168px;
+    }
+    .comic-card-skeleton-year {
+        background-color: $c-grey;
+        height: 13px;
+        width: 48px;
+    }
+}
+
+.comic-card {
+    width: 168px;
+    display: flex;
+    flex-direction: column;
+    gap: $sp-3;
+    .comic-card-image {
+        width: 168px;
+        height: 252px;
+    }
+    .comic-card-title {
+        text-overflow: ellipsis;
+        line-clamp: 2;
+        overflow: hidden;
+        height: 36px;
+        font-weight: 500;
+    }
+
+    .comic-card-year {
+        font-size: $f-body2-size;
+    }
+}

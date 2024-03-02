@@ -7,8 +7,6 @@ import FavsProvider from "@/pods/favs/favs-provider";
 
 import "@/theme/global.scss";
 
-import styles from "./root-layout.module.scss";
-
 const robotoCondensed = Roboto_Condensed({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -25,7 +23,7 @@ const RootLayout = ({ children }: Readonly<RootLayoutProps>) => (
     <body className={robotoCondensed.className}>
       <FavsProvider>
         <Header />
-        <main className={styles["root-layout"]}>{children}</main>
+        <main>{children}</main>
       </FavsProvider>
     </body>
   </html>

@@ -9,13 +9,13 @@ header.header {
 
 div.container {
     padding: $sp-2;
-    max-width: map-get($breakpoints, xxl);
+    max-width: map-get($breakpoints, desktop);
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 
-    @include media(md) {
+    @include media(tablet) {
         padding: $sp-2 $sp-6;
     }
 }

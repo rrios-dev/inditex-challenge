@@ -3,7 +3,7 @@
 .search-input {
     margin: 0 $sp-2;
 
-    @include media(md) {
+    @include media(tablet) {
         margin: 0 $sp-6;
     }
 }
