@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react";
-import { describe, it, vi } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 
 import FavsProvider from "@/pods/favs/favs-provider";
 import * as service from "@/pods/providers/marvel/marvel.service";
@@ -21,9 +21,10 @@ describe("Hero Finder Scene", () => {
       } as unknown as ReturnType<typeof service.getHeroList>)
     );
 
-    render(
+    const { asFragment } = render(
       <FavsProvider>{await HeroFinder({ searchParams: {} })}</FavsProvider>
     );
+    expect(asFragment()).toMatchSnapshot();
   });
 
   it("Mount Scene with empty list", async () => {
@@ -33,8 +34,9 @@ describe("Hero Finder Scene", () => {
       } as unknown as ReturnType<typeof service.getHeroList>)
     );
 
-    render(
+    const { asFragment } = render(
       <FavsProvider>{await HeroFinder({ searchParams: {} })}</FavsProvider>
     );
+    expect(asFragment()).toMatchSnapshot();
   });
 });

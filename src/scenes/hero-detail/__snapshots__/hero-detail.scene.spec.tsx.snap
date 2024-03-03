@@ -1,0 +1,57 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Hero Detail Scene > Mount Scene with data 1`] = `
+<DocumentFragment>
+  <main
+    class="_flex_6eb20e _dir-column_6eb20e _gap-12_6eb20e"
+  >
+    <section
+      class="_hero-header-section_c43771 _flex_6eb20e"
+    >
+      <div
+        class="_hero-header-section-content_c43771"
+      >
+        <img
+          alt="Thumbnail image of the hero undefined"
+          class="_hero-header-section-image_c43771"
+          src="undefined.undefined"
+        />
+        <div
+          class="_hero-header-section-info_c43771 _flex_6eb20e _dir-column_6eb20e _justify-center_6eb20e _gap-7_6eb20e"
+        >
+          <div
+            class="_flex_6eb20e _justify-between_6eb20e _align-center_6eb20e _gap-4_6eb20e"
+          >
+            <h1
+              class="_typography_142002 _variant-h1_142002 color-fg"
+            />
+            <button
+              class="_button-base_31eab0"
+            >
+              <img
+                alt="Empty heart"
+                data-nimg="1"
+                decoding="async"
+                height="22"
+                loading="lazy"
+                src="/icons/heart-empty.svg"
+                style="color: transparent;"
+                width="24"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div
+      class="_section_272693 _hero-comics-section_3581eb _flex_6eb20e _dir-column_6eb20e _gap-12_6eb20e"
+    >
+      <h2
+        class="_typography_142002 _variant-h2_142002 color-fg _title_272693"
+      >
+        Comics
+      </h2>
+    </div>
+  </main>
+</DocumentFragment>
+`;

@@ -1,0 +1,1991 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Hero Finder Scene > Mount Scene with data 1`] = `
+<DocumentFragment>
+  <main
+    class="_hero-finder_366661 _flex_6eb20e _dir-column_6eb20e _gap-6_6eb20e"
+  >
+    <h1
+      class="sr-only"
+    >
+      Hero Finder
+    </h1>
+    <div
+      class="_flex_6eb20e _dir-column_6eb20e _gap-4_6eb20e"
+    >
+      <div
+        class="_search-input-container_2e7b85"
+      >
+        <img
+          alt="search item"
+          data-nimg="1"
+          decoding="async"
+          height="12"
+          loading="lazy"
+          src="/icons/search.svg"
+          style="color: transparent;"
+          width="12"
+        />
+        <label
+          class="sr-only"
+          for=":r0:"
+        >
+          Search
+        </label>
+        <input
+          class="_search-input_2e7b85"
+          id=":r0:"
+          placeholder="Search"
+          type="text"
+          value=""
+        />
+      </div>
+      <p
+        class="_typography_142002 _variant-caption_142002 color-fg"
+      >
+        1564 RESULTS
+      </p>
+    </div>
+    <div
+      class="_flex_6eb20e _dir-column_6eb20e _gap-4_6eb20e"
+    >
+      <ul
+        class="_hero-selector_1d6cb9"
+      >
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011334-3-d-man"
+          >
+            <img
+              alt="Thumbnail image of the hero 3-D Man"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                3-D Man
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1017100-a-bomb-(has)"
+          >
+            <img
+              alt="Thumbnail image of the hero A-Bomb (HAS)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                A-Bomb (HAS)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1009144-a.i.m."
+          >
+            <img
+              alt="Thumbnail image of the hero A.I.M."
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/6/20/52602f21f29ec.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                A.I.M.
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1010699-aaron-stack"
+          >
+            <img
+              alt="Thumbnail image of the hero Aaron Stack"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Aaron Stack
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1009146-abomination-(emil-blonsky)"
+          >
+            <img
+              alt="Thumbnail image of the hero Abomination (Emil Blonsky)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/9/50/4ce18691cbf04.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Abomination (Emil Blonsky)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1016823-abomination-(ultimate)"
+          >
+            <img
+              alt="Thumbnail image of the hero Abomination (Ultimate)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Abomination (Ultimate)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1009148-absorbing-man"
+          >
+            <img
+              alt="Thumbnail image of the hero Absorbing Man"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/1/b0/5269678709fb7.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Absorbing Man
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1009149-abyss"
+          >
+            <img
+              alt="Thumbnail image of the hero Abyss"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/9/30/535feab462a64.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Abyss
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1010903-abyss-(age-of-apocalypse)"
+          >
+            <img
+              alt="Thumbnail image of the hero Abyss (Age of Apocalypse)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/3/80/4c00358ec7548.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Abyss (Age of Apocalypse)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011266-adam-destine"
+          >
+            <img
+              alt="Thumbnail image of the hero Adam Destine"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Adam Destine
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1010354-adam-warlock"
+          >
+            <img
+              alt="Thumbnail image of the hero Adam Warlock"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/a/f0/5202887448860.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Adam Warlock
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1010846-aegis-(trey-rollins)"
+          >
+            <img
+              alt="Thumbnail image of the hero Aegis (Trey Rollins)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/5/e0/4c0035c9c425d.gif"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Aegis (Trey Rollins)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1017851-aero-(aero)"
+          >
+            <img
+              alt="Thumbnail image of the hero Aero (Aero)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Aero (Aero)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1012717-agatha-harkness"
+          >
+            <img
+              alt="Thumbnail image of the hero Agatha Harkness"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/c/a0/4ce5a9bf70e19.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Agatha Harkness
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011297-agent-brand"
+          >
+            <img
+              alt="Thumbnail image of the hero Agent Brand"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/4/60/52695285d6e7e.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Agent Brand
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011031-agent-x-(nijo)"
+          >
+            <img
+              alt="Thumbnail image of the hero Agent X (Nijo)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Agent X (Nijo)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1009150-agent-zero"
+          >
+            <img
+              alt="Thumbnail image of the hero Agent Zero"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/f/60/4c0042121d790.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Agent Zero
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011198-agents-of-atlas"
+          >
+            <img
+              alt="Thumbnail image of the hero Agents of Atlas"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/9/a0/4ce18a834b7f5.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Agents of Atlas
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011175-aginar"
+          >
+            <img
+              alt="Thumbnail image of the hero Aginar"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Aginar
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011136-air-walker-(gabriel-lan)"
+          >
+            <img
+              alt="Thumbnail image of the hero Air-Walker (Gabriel Lan)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Air-Walker (Gabriel Lan)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011176-ajak"
+          >
+            <img
+              alt="Thumbnail image of the hero Ajak"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/2/80/4c002f35c5215.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Ajak
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1010870-ajaxis"
+          >
+            <img
+              alt="Thumbnail image of the hero Ajaxis"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/70/4c0035adc7d3a.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Ajaxis
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011194-akemi"
+          >
+            <img
+              alt="Thumbnail image of the hero Akemi"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Akemi
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011170-alain"
+          >
+            <img
+              alt="Thumbnail image of the hero Alain"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Alain
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1009240-albert-cleary"
+          >
+            <img
+              alt="Thumbnail image of the hero Albert Cleary"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Albert Cleary
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011120-albion"
+          >
+            <img
+              alt="Thumbnail image of the hero Albion"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Albion
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1010836-alex-power"
+          >
+            <img
+              alt="Thumbnail image of the hero Alex Power"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/9/50/4ce5a385a2e82.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Alex Power
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1010755-alex-wilder"
+          >
+            <img
+              alt="Thumbnail image of the hero Alex Wilder"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/2/c0/4c00377144d5a.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Alex Wilder
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011214-alexa-mendez"
+          >
+            <img
+              alt="Thumbnail image of the hero Alexa Mendez"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Alexa Mendez
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1009497-alexander-pierce"
+          >
+            <img
+              alt="Thumbnail image of the hero Alexander Pierce"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Alexander Pierce
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1014990-alice"
+          >
+            <img
+              alt="Thumbnail image of the hero Alice"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/6/70/4cd061e6d6573.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Alice
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1009435-alicia-masters"
+          >
+            <img
+              alt="Thumbnail image of the hero Alicia Masters"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/4c003d40ac7ae.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Alicia Masters
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1010370-alpha-flight"
+          >
+            <img
+              alt="Thumbnail image of the hero Alpha Flight"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/1/60/52695277ee088.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Alpha Flight
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011324-alpha-flight-(ultimate)"
+          >
+            <img
+              alt="Thumbnail image of the hero Alpha Flight (Ultimate)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Alpha Flight (Ultimate)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011164-alvin-maker"
+          >
+            <img
+              alt="Thumbnail image of the hero Alvin Maker"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Alvin Maker
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011227-amadeus-cho"
+          >
+            <img
+              alt="Thumbnail image of the hero Amadeus Cho"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/3/80/520288b9cb581.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Amadeus Cho
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1009567-amanda-sefton"
+          >
+            <img
+              alt="Thumbnail image of the hero Amanda Sefton"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Amanda Sefton
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011382-amazoness"
+          >
+            <img
+              alt="Thumbnail image of the hero Amazoness"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Amazoness
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011361-american-eagle-(jason-strongbow)"
+          >
+            <img
+              alt="Thumbnail image of the hero American Eagle (Jason Strongbow)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/f/80/4ce5a6d8b8f2a.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                American Eagle (Jason Strongbow)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1009151-amiko"
+          >
+            <img
+              alt="Thumbnail image of the hero Amiko"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Amiko
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1010672-amora"
+          >
+            <img
+              alt="Thumbnail image of the hero Amora"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Amora
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1010673-amphibian-(earth-712)"
+          >
+            <img
+              alt="Thumbnail image of the hero Amphibian (Earth-712)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Amphibian (Earth-712)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1010905-amun"
+          >
+            <img
+              alt="Thumbnail image of the hero Amun"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Amun
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1009152-ancient-one"
+          >
+            <img
+              alt="Thumbnail image of the hero Ancient One"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/b0/4ce59ea2103ac.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Ancient One
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1016824-ancient-one-(ultimate)"
+          >
+            <img
+              alt="Thumbnail image of the hero Ancient One (Ultimate)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Ancient One (Ultimate)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011684-angel-(angel-salvadore)"
+          >
+            <img
+              alt="Thumbnail image of the hero Angel (Angel Salvadore)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Angel (Angel Salvadore)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011396-angel-(thomas-halloway)"
+          >
+            <img
+              alt="Thumbnail image of the hero Angel (Thomas Halloway)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/d/03/531769834b15f.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Angel (Thomas Halloway)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1011338-angel-(ultimate)"
+          >
+            <img
+              alt="Thumbnail image of the hero Angel (Ultimate)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/4/50/531769ae4399f.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Angel (Ultimate)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1009153-angel-(warren-worthington-iii)"
+          >
+            <img
+              alt="Thumbnail image of the hero Angel (Warren Worthington III)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Angel (Warren Worthington III)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            class="_link_dbb513 _hero-card_5aadb9"
+            href="/hero/1017574-angela-(aldrif-odinsdottir)"
+          >
+            <img
+              alt="Thumbnail image of the hero Angela (Aldrif Odinsdottir)"
+              class="_hero-card-image_5aadb9"
+              loading="lazy"
+              src="https://i.annihil.us/u/prod/marvel/i/mg/7/00/545a82f59dd73.jpg"
+            />
+            <hr />
+            <div
+              class="_bar_5aadb9"
+            >
+              <p
+                class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+              >
+                Angela (Aldrif Odinsdottir)
+              </p>
+              <button
+                class="_button-base_31eab0 _fav-button_5aadb9"
+              >
+                <img
+                  alt="Empty heart"
+                  data-nimg="1"
+                  decoding="async"
+                  height="10"
+                  loading="lazy"
+                  src="/icons/heart-empty.svg"
+                  style="color: transparent;"
+                  width="12"
+                />
+              </button>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div
+        class="_hero-selector-container-load-more_939734"
+      />
+    </div>
+  </main>
+</DocumentFragment>
+`;
+
+exports[`Hero Finder Scene > Mount Scene with empty list 1`] = `
+<DocumentFragment>
+  <main
+    class="_hero-finder_366661 _flex_6eb20e _dir-column_6eb20e _gap-6_6eb20e"
+  >
+    <h1
+      class="sr-only"
+    >
+      Hero Finder
+    </h1>
+    <div
+      class="_flex_6eb20e _dir-column_6eb20e _gap-4_6eb20e"
+    >
+      <div
+        class="_search-input-container_2e7b85"
+      >
+        <img
+          alt="search item"
+          data-nimg="1"
+          decoding="async"
+          height="12"
+          loading="lazy"
+          src="/icons/search.svg"
+          style="color: transparent;"
+          width="12"
+        />
+        <label
+          class="sr-only"
+          for=":r1:"
+        >
+          Search
+        </label>
+        <input
+          class="_search-input_2e7b85"
+          id=":r1:"
+          placeholder="Search"
+          type="text"
+          value=""
+        />
+      </div>
+      <p
+        class="_typography_142002 _variant-caption_142002 color-fg"
+      >
+        0 RESULT
+      </p>
+    </div>
+    <div
+      class="_flex_6eb20e _dir-column_6eb20e _gap-4_6eb20e"
+    >
+      <ul
+        class="_hero-selector_1d6cb9"
+      >
+        <li
+          data-block="true"
+        />
+        <li
+          data-block="true"
+        />
+        <li
+          data-block="true"
+        />
+        <li
+          data-block="true"
+        />
+        <li
+          data-block="true"
+        />
+        <li
+          data-block="true"
+        />
+        <li
+          data-block="true"
+        />
+      </ul>
+    </div>
+  </main>
+</DocumentFragment>
+`;
