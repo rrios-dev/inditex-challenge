@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import Flex from "../flex";
 import Typography from "../typography";
 
@@ -22,11 +20,10 @@ const ComicCard = (props: ComicCardProps) => {
 
   return (
     <Flex direction="column" className={styles["comic-card"]}>
-      <Image
-        width={168}
-        height={252}
+      <img
         src={imageSrc}
         alt={imageAlt}
+        loading="lazy"
         className={styles["comic-card-image"]}
       />
       <Typography className={styles["comic-card-title"]}>{title}</Typography>

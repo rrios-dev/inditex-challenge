@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useIsClient } from "usehooks-ts";
 
 import ButtonBase from "@/components/button-base";
@@ -36,14 +35,11 @@ const HeroHeaderSection = () => {
         )}
         {!isLoading && hero && (
           <>
-            <div className={styles["hero-header-section-image-container"]}>
-              <Image
-                layout="fill"
-                objectFit="cover"
-                src={heroImage}
-                alt="hero image"
-              />
-            </div>
+            <img
+              className={styles["hero-header-section-image"]}
+              src={heroImage}
+              alt="hero image"
+            />
             <Flex
               direction="column"
               justify="center"
