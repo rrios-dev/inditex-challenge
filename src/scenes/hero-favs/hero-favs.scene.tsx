@@ -24,6 +24,7 @@ const HeroFavsScene = () => {
 
   return (
     <Flex as="main" direction="column" gap={6} className={styles["hero-favs"]}>
+      <h1 className="sr-only">Hero Favs</h1>
       <SearchInput
         onDelayedTyping={(search) => setSearch(search)}
         resultsCount={isClient ? items.length : null}

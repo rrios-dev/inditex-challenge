@@ -40,6 +40,7 @@ const HeroFinder = async ({ searchParams: { search } }: Props) => {
       gap={6}
       className={styles["hero-finder"]}
     >
+      <h1 className="sr-only">Hero Finder</h1>
       <SWRProvider
         fallback={{
           [key]: [heroList.data],
