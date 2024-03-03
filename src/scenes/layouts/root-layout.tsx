@@ -15,7 +15,7 @@ import styles from "./root-layout.module.scss";
 const robotoCondensed = Roboto_Condensed({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: makeAppTitle("Finder"),
+  title: makeAppTitle("WebApp"),
   description: "Marvel Heroes from the Marvel API.",
   icons: {
     icon: "/favicon.ico",

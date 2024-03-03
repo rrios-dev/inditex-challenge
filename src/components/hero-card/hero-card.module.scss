@@ -7,9 +7,10 @@ a.hero-card {
     text-decoration: none;
     text-transform: uppercase;
 
-    .image {
+    .hero-card-image {
         aspect-ratio:  9 / 10;
         position: relative;
+        object-fit: fill;
     }
 
     .bar {

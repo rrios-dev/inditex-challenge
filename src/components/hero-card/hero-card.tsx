@@ -46,7 +46,7 @@ const HeroCard = (props: HeroCardProps) => {
       href={`/hero/${id}-${name.replace(/(\s|\/|\\|\?)/g, "-").toLowerCase()}`}
     >
       <img
-        className={styles["image"]}
+        className={styles["hero-card-image"]}
         src={imageSrc}
         alt={`hero image of ${name}`}
         loading="lazy"

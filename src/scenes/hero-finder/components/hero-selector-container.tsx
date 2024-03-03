@@ -12,6 +12,8 @@ import Spinner from "@/components/spinner";
 import useFavs from "@/pods/favs/hooks/use-favs";
 import useFetchMarvelHeroList from "@/pods/hero/hooks/use-fetch-marvel-hero-list";
 
+import styles from "./hero-selector-container.module.scss";
+
 const HeroSelectorContainer = () => {
   const searchParams = useSearchParams();
   const { isIntersecting, ref } = useIntersectionObserver({
@@ -64,12 +66,7 @@ const HeroSelectorContainer = () => {
       {hasMoreToLoad && (
         <div
           ref={ref}
-          style={{
-            width: "100%",
-            height: "2px",
-            backgroundColor: "transparent",
-            pointerEvents: "none",
-          }}
+          className={styles["hero-selector-container-load-more"]}
         />
       )}
       {(isLoading || isValidating) && (
