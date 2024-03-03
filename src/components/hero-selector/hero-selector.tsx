@@ -3,6 +3,7 @@ import { forwardRef } from "react";
 import styles from "./hero-selector.module.scss";
 import { HeroSelectorProps } from "./interfaces";
 
+// TODO: Add virtualized list
 const HeroSelector = forwardRef<HTMLUListElement, HeroSelectorProps>(
   ({ children }, ref) => (
     <ul className={styles["hero-selector"]} ref={ref}>

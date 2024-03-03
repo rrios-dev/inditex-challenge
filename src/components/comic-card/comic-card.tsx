@@ -16,7 +16,7 @@ const ComicCard = (props: ComicCardProps) => {
 
   if (props.status === "error") return <Typography>Error loading</Typography>;
 
-  const { releaseDate, imageSrc, imageAlt, title } = props;
+  const { releaseDate, imageSrc, title } = props;
 
   return (
     <Flex direction="column" className={styles["comic-card"]}>

@@ -12,24 +12,28 @@ import styles from "./hero-card.module.scss";
 import { HeroCardProps } from "./interfaces";
 
 const HeroCard = (props: HeroCardProps) => {
-  const [hover, setHover] = useState(false);
+  const [active, setActive] = useState(false);
   const ref = useRef<HTMLAnchorElement>(null);
   const isClient = useIsClient();
 
   useEffect(() => {
-    const onMouseEnter = () => {
-      setHover(true);
+    const onActive = () => {
+      setActive(true);
     };
-    const onMouseLeave = () => {
-      setHover(false);
+    const onInactive = () => {
+      setActive(false);
     };
-    ref.current?.addEventListener("mouseenter", onMouseEnter);
-    ref.current?.addEventListener("mouseleave", onMouseLeave);
+    ref.current?.addEventListener("focus", onActive);
+    ref.current?.addEventListener("blur", onInactive);
+    ref.current?.addEventListener("mouseenter", onActive);
+    ref.current?.addEventListener("mouseleave", onInactive);
 
     return () => {
-      ref.current?.removeEventListener("mouseenter", onMouseEnter);
+      ref.current?.removeEventListener("mouseenter", onActive);
+      ref.current?.removeEventListener("mouseleave", onInactive);
+      ref.current?.removeEventListener("focus", onActive);
       // eslint-disable-next-line react-hooks/exhaustive-deps
-      ref.current?.removeEventListener("mouseleave", onMouseLeave);
+      ref.current?.removeEventListener("blur", onInactive);
     };
   }, []);
 
@@ -69,7 +73,7 @@ const HeroCard = (props: HeroCardProps) => {
               width={12}
               height={10}
               variant={
-                favStatus === "full-black" && hover ? "full-white" : favStatus
+                favStatus === "full-black" && active ? "full-white" : favStatus
               }
             />
           </ButtonBase>
