@@ -9,7 +9,13 @@ import Heart from "../heart";
 import styles from "./hero-card.module.scss";
 import { HeroCardProps } from "./interfaces";
 
-const HeroCard = ({ id, imageSrc, name, onFav, favStatus }: HeroCardProps) => (
+const HeroCard = ({
+  id,
+  imageSrc,
+  name,
+  onFav,
+  favVariant: favStatus,
+}: HeroCardProps) => (
   <AnimatedLink
     className={styles["hero-card"]}
     href={`/hero/${id}-${name.replace(/(\s|\/|\\|\?)/g, "-").toLowerCase()}`}
@@ -38,7 +44,7 @@ const HeroCard = ({ id, imageSrc, name, onFav, favStatus }: HeroCardProps) => (
           e.preventDefault();
         }}
       >
-        <Heart width={12} height={10} status={favStatus} />
+        <Heart width={12} height={10} variant={favStatus} />
       </ButtonBase>
     </div>
   </AnimatedLink>

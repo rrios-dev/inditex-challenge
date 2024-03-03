@@ -31,7 +31,7 @@ const HeroSelectorContainer = () => {
           id: v.id,
           imageSrc: `${v.thumbnail.path}.${v.thumbnail.extension}`,
           name: v.name,
-          favStatus: favs.ids.includes(v.id) ? "full-black" : "empty",
+          favVariant: favs.ids.includes(v.id) ? "full-black" : "empty",
           onFav: toggle,
         });
       });

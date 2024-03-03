@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { useIsClient } from "usehooks-ts";
 
 import ButtonBase from "@/components/button-base";
 import Flex from "@/components/flex";
@@ -17,6 +18,7 @@ import styles from "./hero-header-section.module.scss";
 const HeroHeaderSection = () => {
   const id = useHeroId();
   const { hero, isLoading } = useFetchMarvelHero(id);
+  const isClient = useIsClient();
   const {
     favs,
     handlers: { toggle },
@@ -49,11 +51,15 @@ const HeroHeaderSection = () => {
               <Flex gap={4} justify="between" align="center">
                 <Typography variant="h1">{hero?.data?.name}</Typography>
                 <ButtonBase onClick={() => toggle(Number(id))}>
-                  <Heart
-                    status={
-                      favs.ids.includes(Number(id)) ? "full-black" : "empty"
-                    }
-                  />
+                  {isClient ? (
+                    <Heart
+                      variant={
+                        favs.ids.includes(Number(id)) ? "full-black" : "empty"
+                      }
+                    />
+                  ) : (
+                    <Spinner />
+                  )}
                 </ButtonBase>
               </Flex>
               {hero.data?.description && (

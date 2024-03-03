@@ -10,6 +10,10 @@ const HeroSelector = ({ items }: HeroSelectorProps) => (
         <HeroCard {...itemProps} />
       </li>
     ))}
+    {items.length < 7 &&
+      Array.from({ length: 7 - items.length }).map((_, index) => (
+        <li key={index} />
+      ))}
   </ul>
 );
 

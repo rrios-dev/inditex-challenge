@@ -4,7 +4,7 @@ import { forwardRef, useMemo } from "react";
 import { HeartProps } from "./interfaces";
 
 const Heart = forwardRef<HTMLImageElement, HeartProps>(
-  ({ status = "empty", alt, ...props }, ref) => {
+  ({ variant: status = "empty", alt, ...props }, ref) => {
     const data = useMemo(() => {
       switch (status) {
         case "empty":

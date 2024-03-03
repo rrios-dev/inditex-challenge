@@ -3,15 +3,11 @@
 ul.hero-selector {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(2, 172px);
     gap: $sp-3;
     width: 100%;
     margin: 0;
     padding: 0;
-
-    @include media(mobile){
-        grid-template-columns: repeat(auto-fit, minmax(172px, 1fr));
-    }
+    grid-template-columns: repeat(auto-fit, minmax(172px, 1fr));
 
     @include media(desktop){
         grid-template-columns: repeat(auto-fit, minmax(188px, 1fr));
