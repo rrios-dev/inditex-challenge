@@ -1,0 +1,119 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Flex component > Direction > column 1`] = `
+<DocumentFragment>
+  <div
+    class="_flex_6eb20e _dir-column_6eb20e"
+  >
+    <div
+      class="_flex_6eb20e"
+    >
+      0
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      1
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      2
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      3
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      4
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      5
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      6
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      7
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      8
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      9
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Flex component > Direction > row 1`] = `
+<DocumentFragment>
+  <div
+    class="_flex_6eb20e"
+  >
+    <div
+      class="_flex_6eb20e"
+    >
+      0
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      1
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      2
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      3
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      4
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      5
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      6
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      7
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      8
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      9
+    </div>
+  </div>
+</DocumentFragment>
+`;

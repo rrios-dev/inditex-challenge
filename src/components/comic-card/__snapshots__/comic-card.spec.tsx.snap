@@ -1,0 +1,54 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ComicCard component > renders comic card with correct props when status is success 1`] = `
+<DocumentFragment>
+  <div
+    class="_comic-card_400ff7 _flex_6eb20e _dir-column_6eb20e"
+  >
+    <img
+      alt="Poster image of Comic Comic Title"
+      class="_comic-card-image_400ff7"
+      loading="lazy"
+      src="path/to/image.jpg"
+    />
+    <p
+      class="_typography_142002 _variant-body1_142002 color-fg _comic-card-title_400ff7"
+    >
+      Comic Title
+    </p>
+    <p
+      class="_typography_142002 _variant-body1_142002 color-fg _comic-card-year_400ff7"
+    >
+      2022
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ComicCard component > renders error message when status is error 1`] = `
+<DocumentFragment>
+  <p
+    class="_typography_142002 _variant-body1_142002 color-fg"
+  >
+    Error loading
+  </p>
+</DocumentFragment>
+`;
+
+exports[`ComicCard component > renders loading skeleton when status is loading 1`] = `
+<DocumentFragment>
+  <div
+    class="_comic-card-skeleton_400ff7"
+  >
+    <div
+      class="_comic-card-skeleton-image_400ff7"
+    />
+    <div
+      class="_comic-card-skeleton-text_400ff7"
+    />
+    <div
+      class="_comic-card-skeleton-year_400ff7"
+    />
+  </div>
+</DocumentFragment>
+`;
