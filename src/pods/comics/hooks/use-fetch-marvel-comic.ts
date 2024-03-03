@@ -1,3 +1,4 @@
+"use client";
 import useSWR from "swr/immutable";
 
 import { getComic } from "@/pods/providers/marvel/marvel.service";

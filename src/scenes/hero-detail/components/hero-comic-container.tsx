@@ -8,7 +8,6 @@ interface HeroComicContainerProps {
 }
 const HeroComicContainer = ({ id }: HeroComicContainerProps) => {
   const { comic, error, isLoading } = useFetchMarvelComic(id);
-
   const hasData = Boolean(comic.data);
   const releaseDate = comic.data?.dates.find(
     (x) => x.type === "onsaleDate"
