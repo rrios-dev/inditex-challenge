@@ -17,6 +17,7 @@ const robotoCondensed = Roboto_Condensed({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: makeAppTitle("WebApp"),
   description: "Marvel Heroes from the Marvel API.",
+  keywords: ["Marvel", "Heroes", "API", "React", "Next.js", "TypeScript"],
   icons: {
     icon: "/favicon.ico",
   },
