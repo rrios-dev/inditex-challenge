@@ -30,10 +30,12 @@ a.hero-card {
         }
     }
 
-    &:hover,&:focus-visible {
-        .bar {
-            background-color: $c-primary;
-            color: $c-bg;
+    @media (pointer: fine) {
+        &:hover,&:focus-visible {
+            .bar {
+                background-color: $c-primary;
+                color: $c-bg;
+            }
         }
     }
 

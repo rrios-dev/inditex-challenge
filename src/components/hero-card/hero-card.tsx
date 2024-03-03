@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import { useIsClient } from "usehooks-ts";
 
 import Typography from "@/components/typography";
@@ -11,7 +12,27 @@ import styles from "./hero-card.module.scss";
 import { HeroCardProps } from "./interfaces";
 
 const HeroCard = (props: HeroCardProps) => {
+  const [hover, setHover] = useState(false);
+  const ref = useRef<HTMLAnchorElement>(null);
   const isClient = useIsClient();
+
+  useEffect(() => {
+    const onMouseEnter = () => {
+      setHover(true);
+    };
+    const onMouseLeave = () => {
+      setHover(false);
+    };
+    ref.current?.addEventListener("mouseenter", onMouseEnter);
+    ref.current?.addEventListener("mouseleave", onMouseLeave);
+
+    return () => {
+      ref.current?.removeEventListener("mouseenter", onMouseEnter);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+      ref.current?.removeEventListener("mouseleave", onMouseLeave);
+    };
+  }, []);
+
   if (props.status === "loading") return <Spinner />;
 
   if (props.status === "error")
@@ -20,6 +41,7 @@ const HeroCard = (props: HeroCardProps) => {
   const { id, imageSrc, name, onFav, favVariant: favStatus } = props;
   return (
     <AnimatedLink
+      ref={ref}
       className={styles["hero-card"]}
       href={`/hero/${id}-${name.replace(/(\s|\/|\\|\?)/g, "-").toLowerCase()}`}
     >
@@ -43,7 +65,13 @@ const HeroCard = (props: HeroCardProps) => {
               e.preventDefault();
             }}
           >
-            <Heart width={12} height={10} variant={favStatus} />
+            <Heart
+              width={12}
+              height={10}
+              variant={
+                favStatus === "full-black" && hover ? "full-white" : favStatus
+              }
+            />
           </ButtonBase>
         )}
       </div>
