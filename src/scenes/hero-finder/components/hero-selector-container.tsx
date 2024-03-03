@@ -28,13 +28,16 @@ const HeroSelectorContainer = () => {
   const items =
     heroList?.reduce<HeroCardProps[]>((acc, chunk) => {
       chunk.data.results.forEach((v) => {
+        const heroImage = `${v.thumbnail.path}.${v.thumbnail.extension}`;
         acc.push({
           status: "success",
           id: v.id,
-          imageSrc: `${v.thumbnail.path}.${v.thumbnail.extension}`,
+          imageSrc: heroImage,
           name: v.name,
-          favVariant: favs.ids.includes(v.id) ? "full-black" : "empty",
-          onFav: toggle,
+          favVariant: favs.items.find((x) => x.id === v.id)
+            ? "full-black"
+            : "empty",
+          onFav: () => toggle({ id: v.id, name: v.name, image: heroImage }),
         });
       });
 

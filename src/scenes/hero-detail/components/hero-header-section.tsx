@@ -24,6 +24,8 @@ const HeroHeaderSection = () => {
     handlers: { toggle },
   } = useFavs();
 
+  const heroImage = `${hero.data?.thumbnail.path}.${hero.data?.thumbnail.extension}`;
+
   return (
     <Flex as="section" className={styles["hero-header-section"]}>
       <div className={styles["hero-header-section-content"]}>
@@ -38,7 +40,7 @@ const HeroHeaderSection = () => {
               <Image
                 layout="fill"
                 objectFit="cover"
-                src={`${hero.data?.thumbnail.path}.${hero.data?.thumbnail.extension}`}
+                src={heroImage}
                 alt="hero image"
               />
             </div>
@@ -50,11 +52,21 @@ const HeroHeaderSection = () => {
             >
               <Flex gap={4} justify="between" align="center">
                 <Typography variant="h1">{hero?.data?.name}</Typography>
-                <ButtonBase onClick={() => toggle(Number(id))}>
+                <ButtonBase
+                  onClick={() =>
+                    toggle({
+                      id: Number(id),
+                      image: heroImage,
+                      name: hero.data?.name,
+                    })
+                  }
+                >
                   {isClient ? (
                     <Heart
                       variant={
-                        favs.ids.includes(Number(id)) ? "full-black" : "empty"
+                        favs.items.find((x) => x.id.toString() === id)
+                          ? "full-black"
+                          : "empty"
                       }
                     />
                   ) : (

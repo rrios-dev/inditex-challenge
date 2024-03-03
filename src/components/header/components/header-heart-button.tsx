@@ -10,15 +10,15 @@ import styles from "./header-heart.button.module.scss";
 
 const HeaderHeartButton = () => {
   const {
-    favs: { ids },
+    favs: { items },
   } = useFavs();
   const isMounted = useIsClient();
   return (
     <AnimatedLink className={styles["header-heart-link"]} href="/favs">
       {isMounted ? (
         <>
-          <Heart variant={ids.length > 0 ? "full-black" : "empty"} />
-          {ids.length}
+          <Heart variant={items.length > 0 ? "full-black" : "empty"} />
+          {items.length}
         </>
       ) : (
         <Spinner size="md" />

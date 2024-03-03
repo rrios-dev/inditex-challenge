@@ -2,6 +2,7 @@
 import { useCallback, useContext } from "react";
 
 import favsContext from "../favs-context";
+import { FavHeroItem } from "../interfaces";
 
 const useFavs = () => {
   const ctx = useContext(favsContext);
@@ -13,32 +14,32 @@ const useFavs = () => {
   const { favs, setFavs } = ctx;
 
   const add = useCallback(
-    (id: number) =>
+    (item: FavHeroItem) =>
       setFavs((prev) => ({
-        ids: [...prev.ids, id],
+        items: [...prev.items, item],
       })),
     [setFavs]
   );
 
   const toggle = useCallback(
-    (id: number) =>
+    (item: FavHeroItem) =>
       setFavs((prev) => ({
-        ids: prev.ids.includes(id)
-          ? prev.ids.filter((favId) => favId !== id)
-          : [...prev.ids, id],
+        items: prev.items.some((fav) => fav.id === item.id)
+          ? prev.items.filter((fav) => fav.id !== item.id)
+          : [...prev.items, item],
       })),
     [setFavs]
   );
 
   const remove = useCallback(
-    (id: number) =>
+    (item: FavHeroItem) =>
       setFavs((prev) => ({
-        ids: prev.ids.filter((favId) => favId !== id),
+        items: prev.items.filter((fav) => fav.id !== item.id),
       })),
     [setFavs]
   );
 
-  const clear = useCallback(() => setFavs({ ids: [] }), [setFavs]);
+  const clear = useCallback(() => setFavs({ items: [] }), [setFavs]);
 
   return {
     favs,

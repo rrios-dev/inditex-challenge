@@ -1,3 +1,9 @@
+export interface FavHeroItem {
+  id: number;
+  name?: string;
+  image?: string;
+}
+
 export interface FavsState {
-    ids: number[];
+  items: FavHeroItem[];
 }
