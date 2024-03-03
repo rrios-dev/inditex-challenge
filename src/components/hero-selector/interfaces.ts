@@ -1,5 +1,5 @@
-import { HeroCardProps } from "../hero-card/interfaces";
+import { ReactNode } from "react";
 
 export interface HeroSelectorProps {
-    items: HeroCardProps[];
+  children: ReactNode[];
 }

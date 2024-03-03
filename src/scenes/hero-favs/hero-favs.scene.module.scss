@@ -1,0 +1,11 @@
+@import '@/theme/theme.scss';
+
+.hero-favs {
+    margin: 0 auto;
+    max-width: map-get($breakpoints, desktop);
+    padding: $sp-8 $sp-4;
+
+    @include media(tablet) {
+        padding: $sp-12;
+    }
+}

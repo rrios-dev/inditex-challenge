@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { useIntersectionObserver } from "usehooks-ts";
 
 import Flex from "@/components/flex";
+import HeroCard from "@/components/hero-card/hero-card";
 import { HeroCardProps } from "@/components/hero-card/interfaces";
 import HeroSelector from "@/components/hero-selector/hero-selector";
 import Spinner from "@/components/spinner";
@@ -28,6 +29,7 @@ const HeroSelectorContainer = () => {
     heroList?.reduce<HeroCardProps[]>((acc, chunk) => {
       chunk.data.results.forEach((v) => {
         acc.push({
+          status: "success",
           id: v.id,
           imageSrc: `${v.thumbnail.path}.${v.thumbnail.extension}`,
           name: v.name,
@@ -49,7 +51,13 @@ const HeroSelectorContainer = () => {
 
   return (
     <Flex direction="column" gap={4}>
-      <HeroSelector items={items} />
+      <HeroSelector>
+        {items.map((item, idx) => (
+          <li key={item.status === "success" ? item.id : idx}>
+            <HeroCard {...item} />
+          </li>
+        ))}
+      </HeroSelector>
       {hasMoreToLoad && (
         <div
           ref={ref}

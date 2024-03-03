@@ -1,41 +1,54 @@
-'use client';
-import { useContext } from "react";
+"use client";
+import { useCallback, useContext } from "react";
 
 import favsContext from "../favs-context";
 
 const useFavs = () => {
-    const ctx = useContext(favsContext);
+  const ctx = useContext(favsContext);
 
-    if (!ctx) {
-        throw new Error('useFavs must be used within a FavsProvider');
-    }
+  if (!ctx) {
+    throw new Error("useFavs must be used within a FavsProvider");
+  }
 
-    const { favs, setFavs } = ctx;
+  const { favs, setFavs } = ctx;
 
-    const add = (id: number) => setFavs((prev) => ({
-        ids: [...prev.ids, id]
-    }))
+  const add = useCallback(
+    (id: number) =>
+      setFavs((prev) => ({
+        ids: [...prev.ids, id],
+      })),
+    [setFavs]
+  );
 
-    const toggle = (id: number) => setFavs((prev) => ({
-        ids: prev.ids.includes(id) ? prev.ids.filter((favId) => favId !== id) : [...prev.ids, id],
-    }));
+  const toggle = useCallback(
+    (id: number) =>
+      setFavs((prev) => ({
+        ids: prev.ids.includes(id)
+          ? prev.ids.filter((favId) => favId !== id)
+          : [...prev.ids, id],
+      })),
+    [setFavs]
+  );
 
-    const remove = (id: number) => setFavs((prev) => ({
-        ids: prev.ids.filter((favId) => favId !== id)
-    }))
+  const remove = useCallback(
+    (id: number) =>
+      setFavs((prev) => ({
+        ids: prev.ids.filter((favId) => favId !== id),
+      })),
+    [setFavs]
+  );
 
-    const clear = () => setFavs({ ids: [] });
+  const clear = useCallback(() => setFavs({ ids: [] }), [setFavs]);
 
-
-    return {
-        favs,
-        handlers: {
-            add,
-            remove,
-            toggle,
-            clear,
-        }
-    }
+  return {
+    favs,
+    handlers: {
+      add,
+      remove,
+      toggle,
+      clear,
+    },
+  };
 };
 
 export default useFavs;

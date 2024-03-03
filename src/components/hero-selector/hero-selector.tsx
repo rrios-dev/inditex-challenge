@@ -1,20 +1,20 @@
-import HeroCard from "@/components/hero-card/hero-card";
+import { forwardRef } from "react";
 
 import styles from "./hero-selector.module.scss";
 import { HeroSelectorProps } from "./interfaces";
 
-const HeroSelector = ({ items }: HeroSelectorProps) => (
-  <ul className={styles["hero-selector"]}>
-    {items.map((itemProps) => (
-      <li key={itemProps.id}>
-        <HeroCard {...itemProps} />
-      </li>
-    ))}
-    {items.length < 7 &&
-      Array.from({ length: 7 - items.length }).map((_, index) => (
-        <li key={index} />
-      ))}
-  </ul>
+const HeroSelector = forwardRef<HTMLUListElement, HeroSelectorProps>(
+  ({ children }, ref) => (
+    <ul className={styles["hero-selector"]} ref={ref}>
+      {children}
+      {children.length < 7 &&
+        Array.from({ length: 7 - children.length }).map((_, index) => (
+          <li data-block key={index} />
+        ))}
+    </ul>
+  )
 );
+
+HeroSelector.displayName = "HeroSelector";
 
 export default HeroSelector;
