@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: center;
     height: 27px;
-
     border-bottom: $border-thin solid $c-fg;
+
     &:has(.search-input:focus-visible) {
         border-bottom-color: $c-primary;
     }

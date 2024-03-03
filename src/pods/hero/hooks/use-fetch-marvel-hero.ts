@@ -1,6 +1,6 @@
 import useSWR from "swr/immutable";
 
-import { getHeroDetail } from "@/pods/providers/marvel/public-marvel.service";
+import { getHeroDetail } from "@/pods/providers/marvel/marvel.service";
 
 const useFetchMarvelHero = (id: string) => {
   const { data, ...rest } = useSWR(

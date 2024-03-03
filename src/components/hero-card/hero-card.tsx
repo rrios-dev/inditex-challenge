@@ -27,7 +27,9 @@ const HeroCard = ({ id, imageSrc, name, onFav, favStatus }: HeroCardProps) => (
     </div>
     <hr />
     <div className={styles["bar"]}>
-      <Typography className={styles.name}>{name}</Typography>
+      <Typography variant="body2" className={styles.name}>
+        {name}
+      </Typography>
       <ButtonBase
         className={styles["fav-button"]}
         onClick={(e) => {

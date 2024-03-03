@@ -7,13 +7,13 @@ ul.hero-selector {
     gap: $sp-3;
     width: 100%;
     margin: 0;
-    padding: 0 $sp-2;
-    
+    padding: 0;
+
     @include media(mobile){
         grid-template-columns: repeat(auto-fit, minmax(172px, 1fr));
     }
 
-    @include media(tablet) {
-        padding: 0 $sp-6;
+    @include media(desktop){
+        grid-template-columns: repeat(auto-fit, minmax(188px, 1fr));
     }
 }

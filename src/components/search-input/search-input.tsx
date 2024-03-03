@@ -40,7 +40,7 @@ const SearchInput = ({
   }, [onDelayedTyping]);
 
   return (
-    <Flex direction="column" className={containerClassName}>
+    <Flex direction="column" className={containerClassName} gap={4}>
       <div className={cls(styles["search-input-container"])}>
         {onSearch ? (
           <ButtonBase onClick={() => onSearch(ref.current?.value ?? "")}>
@@ -58,7 +58,7 @@ const SearchInput = ({
         />
       </div>
       {typeof resultsCount === "number" && (
-        <Typography>
+        <Typography variant="caption">
           {resultsCount} {resultsCount > 1 ? "RESULTS" : "RESULT"}
         </Typography>
       )}

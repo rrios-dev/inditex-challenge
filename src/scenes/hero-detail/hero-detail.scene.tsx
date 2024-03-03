@@ -3,8 +3,8 @@ import { cache } from "react";
 import { unstable_serialize } from "swr";
 
 import Flex from "@/components/flex";
+import { getHeroDetail } from "@/pods/providers/marvel/marvel.service";
 import privateMarvelInstanceService from "@/pods/providers/marvel/private-instance.service";
-import { getHeroDetail } from "@/pods/providers/marvel/public-marvel.service";
 import makeAppTitle from "@/pods/seo/utils/make-app-title";
 import SWRProvider from "@/pods/swr/swr-provider";
 

@@ -1,6 +1,11 @@
 @import '@/theme/theme.scss';
 
 .hero-finder {
+    margin: 0 auto;
     max-width: map-get($breakpoints, desktop);
-    margin: $sp-12 auto 0;
+    padding: $sp-8 $sp-4;
+
+    @include media(tablet) {
+        padding: $sp-12;
+    }
 }

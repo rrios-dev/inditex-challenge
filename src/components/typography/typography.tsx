@@ -17,7 +17,8 @@ const Typography = forwardRef<HTMLParagraphElement, TypographyProps>(
         ...props,
         className: cls(
           styles.typography,
-          `variant-${styles[variant]}`,
+          // `variant-${styles[variant]}`,
+          styles[`variant-${variant}`],
           `color-${color}`,
           className
         ),

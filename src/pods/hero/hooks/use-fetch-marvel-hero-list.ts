@@ -1,18 +1,6 @@
 import useSWR from "swr/infinite";
 
-import { getHeroList } from "@/pods/providers/marvel/public-marvel.service";
-
-const fetcher = async ({ search, offset }: any) => {
-  const response = await getHeroList({
-    params: {
-      limit: 50,
-      offset: offset * 50,
-      ...(search && { nameStartsWith: search }),
-    },
-  });
-
-  return response.data;
-};
+import { getHeroList } from "@/pods/providers/marvel/marvel.service";
 
 const useFetchMarvelHeroList = (search = "") => {
   const { data, ...rest } = useSWR(
@@ -21,7 +9,13 @@ const useFetchMarvelHeroList = (search = "") => {
       offset,
       search,
     }),
-    fetcher,
+    async (p) =>
+      (
+        await getHeroList({
+          offset: p.offset * 50,
+          search: p.search,
+        })
+      ).data,
     {
       revalidateAll: false,
       revalidateIfStale: false,
