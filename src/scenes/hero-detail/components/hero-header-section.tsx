@@ -37,7 +37,7 @@ const HeroHeaderSection = () => {
           <>
             <img
               className={styles["hero-header-section-image"]}
-              src={heroImage}
+              src={heroImage.replace("http", "https")}
               alt="hero image"
             />
             <Flex

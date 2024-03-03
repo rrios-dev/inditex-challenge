@@ -21,7 +21,7 @@ const ComicCard = (props: ComicCardProps) => {
   return (
     <Flex direction="column" className={styles["comic-card"]}>
       <img
-        src={imageSrc}
+        src={imageSrc.replace("http", "https")}
         alt={imageAlt}
         loading="lazy"
         className={styles["comic-card-image"]}
