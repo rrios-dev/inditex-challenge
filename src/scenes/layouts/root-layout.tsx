@@ -4,6 +4,8 @@ import { Roboto_Condensed } from "next/font/google";
 import { ReactNode } from "react";
 
 import Header from "@/components/header/header";
+import ProgressBar from "@/components/progress-bar";
+import ProgressBarProvider from "@/components/progress-bar/progress-bar-provider";
 import FavsProvider from "@/pods/favs/favs-provider";
 import makeAppTitle from "@/pods/seo/utils/make-app-title";
 import "@/theme/global.scss";
@@ -37,10 +39,13 @@ interface RootLayoutProps {
 const RootLayout = ({ children }: Readonly<RootLayoutProps>) => (
   <html lang="en">
     <body className={cls(robotoCondensed.className, styles.root)}>
-      <FavsProvider>
-        <Header />
-        {children}
-      </FavsProvider>
+      <ProgressBarProvider>
+        <FavsProvider>
+          <Header />
+          {children}
+        </FavsProvider>
+        <ProgressBar />
+      </ProgressBarProvider>
     </body>
   </html>
 );

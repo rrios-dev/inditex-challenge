@@ -1,3 +1,3 @@
 export interface SpinnerProps {
-    size?: 'sm' | 'md' | 'lg';
+  size?: "xs" | "sm" | "md" | "lg";
 }

@@ -1,8 +1,12 @@
+import { PublicConfiguration } from "swr/_internal";
 import useSWR from "swr/infinite";
 
 import { getHeroList } from "@/pods/providers/marvel/marvel.service";
 
-const useFetchMarvelHeroList = (search = "") => {
+const useFetchMarvelHeroList = (
+  search = "",
+  options?: Partial<Pick<PublicConfiguration, "onSuccess" | "onError">>
+) => {
   const { data, ...rest } = useSWR(
     (offset) => ({
       key: "marvel-hero-list",
@@ -21,6 +25,9 @@ const useFetchMarvelHeroList = (search = "") => {
       revalidateIfStale: false,
       revalidateOnFocus: false,
       revalidateFirstPage: false,
+      revalidateOnReconnect: false,
+      shouldRetryOnError: false,
+      ...options,
     }
   );
 

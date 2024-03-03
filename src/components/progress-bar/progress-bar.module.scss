@@ -1,0 +1,20 @@
+@import '@/theme/theme.scss';
+
+@keyframes progress-bar {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.progress-bar {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    height: 4px;
+    transition: $t-default;
+    z-index: $z-progress-bar;
+    background-color: $c-primary;
+}

@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 
 import ButtonBase from "../button-base";
 import Flex from "../flex";
+import Spinner from "../spinner";
 import Typography from "../typography";
 
 import { SearchInputProps } from "./interfaces";
@@ -16,6 +17,7 @@ const SearchInput = ({
   onSearch,
   onDelayedTyping,
   resultsCount,
+  isLoading,
   ...props
 }: SearchInputProps) => {
   const timer = useRef<NodeJS.Timeout>();
@@ -42,12 +44,18 @@ const SearchInput = ({
   return (
     <Flex direction="column" className={containerClassName} gap={4}>
       <div className={cls(styles["search-input-container"])}>
-        {onSearch ? (
-          <ButtonBase onClick={() => onSearch(ref.current?.value ?? "")}>
-            {image}
-          </ButtonBase>
+        {isLoading ? (
+          <Spinner size="xs" />
         ) : (
-          image
+          <>
+            {onSearch ? (
+              <ButtonBase onClick={() => onSearch(ref.current?.value ?? "")}>
+                {image}
+              </ButtonBase>
+            ) : (
+              image
+            )}
+          </>
         )}
         <input
           ref={ref}
