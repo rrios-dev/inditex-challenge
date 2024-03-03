@@ -1,6 +1,6 @@
 import cls from "classnames";
 import Image from "next/image";
-import { useEffect, useRef } from "react";
+import { useEffect, useId, useRef } from "react";
 
 import ButtonBase from "../button-base";
 import Flex from "../flex";
@@ -20,11 +20,12 @@ const SearchInput = ({
   isLoading,
   ...props
 }: SearchInputProps) => {
+  const id = useId();
   const timer = useRef<NodeJS.Timeout>();
   const ref = useRef<HTMLInputElement>(null);
 
   const image = (
-    <Image src="/icons/search.svg" width={12} height={12} alt="search" />
+    <Image src="/icons/search.svg" width={12} height={12} alt="search item" />
   );
 
   useEffect(() => {
@@ -57,7 +58,11 @@ const SearchInput = ({
             )}
           </>
         )}
+        <label htmlFor={id} className="sr-only">
+          {placeholder}
+        </label>
         <input
+          id={id}
           ref={ref}
           className={cls(styles["search-input"], className)}
           type="text"

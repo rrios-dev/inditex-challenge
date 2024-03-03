@@ -22,7 +22,7 @@ const ComicCard = (props: ComicCardProps) => {
     <Flex direction="column" className={styles["comic-card"]}>
       <img
         src={imageSrc.replace("http", "https")}
-        alt={imageAlt}
+        alt={`Poster image of Comic ${title}`}
         loading="lazy"
         className={styles["comic-card-image"]}
       />

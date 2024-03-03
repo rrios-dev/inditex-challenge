@@ -35,7 +35,33 @@ export const getHeroDetail = async (id: string, options?: CustomOptions) =>
     MarvelResponse<MarvelPagination<[Hero]>>
   >(`characters/${id}`, options);
 
-export const getComic = async (id: string, options?: CustomOptions) =>
+interface GetComicInput {
+  limit?: number;
+  orderBy?:
+    | "focDate"
+    | "onsaleDate"
+    | "title"
+    | "issueNumber"
+    | "modified"
+    | "-focDate"
+    | "-onsaleDate"
+    | "-title"
+    | "-issueNumber"
+    | "-modified";
+}
+
+export const getComic = async (
+  id: string,
+  input?: GetComicInput,
+  options?: CustomOptions
+) =>
   (options?.instance || publicMarvelInstanceService).get<
     MarvelResponse<MarvelPagination<[Comic]>>
-  >(`comics/${id}`, options);
+  >(`comics/${id}`, {
+    ...options,
+    params: {
+      ...options?.params,
+      limit: input?.limit ?? 20,
+      orderBy: input?.orderBy ?? "focDate",
+    },
+  });

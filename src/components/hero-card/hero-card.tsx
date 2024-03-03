@@ -48,7 +48,7 @@ const HeroCard = (props: HeroCardProps) => {
       <img
         className={styles["hero-card-image"]}
         src={imageSrc.replace("http", "https")}
-        alt={`hero image of ${name}`}
+        alt={`Thumbnail image of the hero ${name}`}
         loading="lazy"
       />
       <hr />
