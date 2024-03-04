@@ -30,7 +30,7 @@ exports[`ComicCard component > renders error message when status is error 1`] = 
   <p
     class="_typography_142002 _variant-body1_142002 color-fg"
   >
-    Error loading
+    Error
   </p>
 </DocumentFragment>
 `;
