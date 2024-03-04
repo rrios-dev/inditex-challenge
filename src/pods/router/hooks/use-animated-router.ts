@@ -1,4 +1,5 @@
 "use client";
+import { NavigateOptions } from "next/dist/shared/lib/app-router-context.shared-runtime";
 import { useRouter } from "next/navigation";
 
 const useAnimatedRouter = () => {
@@ -11,8 +12,9 @@ const useAnimatedRouter = () => {
     return status;
   };
 
-  const push = (url: string) => {
-    if (!document.startViewTransition) return router.push(url);
+  const push = (url: string, options?: NavigateOptions) => {
+    if (!document.startViewTransition)
+      return router.push(url, { scroll: true, ...options });
 
     document.startViewTransition(() => {
       router.push(url);
