@@ -42,7 +42,9 @@ Directory definition:
 - `build`: Generates a build of the application in production mode
 - `start`: Starts the application in SSR production mode
 - `lint`: Runs linting to verify code style
-- `test`: Runs tests to verify application functionality
+- `test`: Runs tests to verify application functionality,
+- `playwright`: Runs e2e tests to verify app flows 
+- `playwright:ui`: Runs e2e tests to verify app flows in interactive mode 
 
 ### Component Development
 Proper separation of responsibilities between components is essential. This allows creating more maintainable, versatile components and provides a better development experience.
