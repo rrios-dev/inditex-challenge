@@ -43,6 +43,7 @@ Directory definition:
 - `start`: Starts the application in SSR production mode
 - `lint`: Runs linting to verify code style
 - `test`: Runs tests to verify application functionality,
+- `test:ci`: Runs tests in ci mode to verify application functionality,
 - `playwright`: Runs e2e tests to verify app flows 
 - `playwright:ui`: Runs e2e tests to verify app flows in interactive mode 
 

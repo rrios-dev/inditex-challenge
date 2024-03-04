@@ -7,9 +7,11 @@
     "build": "next build",
     "start": "next start --port 80",
     "lint": "next lint",
+    "test:ci": "vitest --run",
     "test": "vitest",
     "playwright": "playwright test",
-    "playwright:ui": "playwright test --ui"
+    "playwright:ui": "playwright test --ui",
+    "prepare": "husky"
   },
   "dependencies": {
     "classnames": "^2.5.1",
@@ -36,6 +38,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "eslint-plugin-import": "^2.29.1",
+    "husky": "^9.0.11",
     "jsdom": "^24.0.0",
     "sass": "^1.71.1",
     "typescript": "^5",
