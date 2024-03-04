@@ -50,6 +50,15 @@ Directory definition:
 ### Component Development
 Proper separation of responsibilities between components is essential. This allows creating more maintainable, versatile components and provides a better development experience.
 
+### Linting
+For the linting process we are using customised Eslint for NextJS projects.
+
+### Testing
+
+Vitets + Testing Library
+- Unit Tests
+- Integration Tests
+
 ### Fetching
 In this project we use [SWR](https://swr.vercel.app/) as a fetcher to simplify data recovery processes.
 
