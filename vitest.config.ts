@@ -5,6 +5,10 @@ export default defineConfig({
   plugins: [react()],
   test: {
     exclude: ["tests", "node_modules"],
+    coverage: {
+      include: ["src"],
+      exclude: ["src/app"],
+    },
     env: {
       NEXT_PUBLIC_MARVEL_PUBLIC_API_KEY: "1234",
       NEXT_PUBLIC_MARVEL_PUBLIC_API_URL: "https://gateway.marvel.com",

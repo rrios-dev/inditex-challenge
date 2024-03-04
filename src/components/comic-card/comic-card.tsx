@@ -14,7 +14,8 @@ const ComicCard = (props: ComicCardProps) => {
       </div>
     );
 
-  if (props.status === "error") return <Typography>Error loading</Typography>;
+  // TODO: Enhance error component
+  if (props.status === "error") return <Typography>Error</Typography>;
 
   const { releaseDate, imageSrc, title } = props;
 

@@ -1,0 +1,75 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Not found scene > Mount scene 1`] = `
+<DocumentFragment>
+  <main
+    class="_hero-favs_06173e _flex_6eb20e _dir-column_6eb20e _gap-6_6eb20e"
+  >
+    <h1
+      class="sr-only"
+    >
+      Hero Favs
+    </h1>
+    <div
+      class="_flex_6eb20e _dir-column_6eb20e _gap-4_6eb20e"
+    >
+      <div
+        class="_search-input-container_2e7b85"
+      >
+        <img
+          alt="search item"
+          data-nimg="1"
+          decoding="async"
+          height="12"
+          loading="lazy"
+          src="/icons/search.svg"
+          style="color: transparent;"
+          width="12"
+        />
+        <label
+          class="sr-only"
+          for=":r0:"
+        >
+          Search
+        </label>
+        <input
+          class="_search-input_2e7b85"
+          id=":r0:"
+          placeholder="Search"
+          type="text"
+        />
+      </div>
+      <p
+        class="_typography_142002 _variant-caption_142002 color-fg"
+      >
+        0 RESULT
+      </p>
+    </div>
+    <ul
+      class="_hero-selector_1d6cb9"
+    >
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+    </ul>
+  </main>
+</DocumentFragment>
+`;

@@ -4,7 +4,7 @@ import { describe, expect, it, vi } from "vitest";
 import { FAVS_STORAGE_KEY } from "@/pods/favs/constants";
 import FavsProvider from "@/pods/favs/favs-provider";
 
-import HeroFinder from "./hero-favs.scene";
+import HeroFavs from "./hero-favs.scene";
 
 vi.mock("next/navigation", async (importOriginal) => ({
   ...((await importOriginal()) as any),
@@ -36,7 +36,7 @@ describe("Hero Favs Scene", () => {
 
     const { asFragment } = render(
       <FavsProvider>
-        <HeroFinder />
+        <HeroFavs />
       </FavsProvider>
     );
     expect(asFragment()).toMatchSnapshot();
@@ -52,7 +52,7 @@ describe("Hero Favs Scene", () => {
 
     const { asFragment } = render(
       <FavsProvider>
-        <HeroFinder />
+        <HeroFavs />
       </FavsProvider>
     );
     expect(asFragment()).toMatchSnapshot();

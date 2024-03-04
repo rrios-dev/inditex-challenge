@@ -13,7 +13,7 @@ vi.mock("next/navigation", async (importOriginal) => ({
   useRouter: () => ({ push: () => {} }),
 }));
 
-describe("Hero Finder Scene", () => {
+describe("Hero finder scene", () => {
   it("Mount Scene with data", async () => {
     vi.spyOn(service, "getHeroList").mockReturnValue(
       Promise.resolve({
@@ -27,7 +27,7 @@ describe("Hero Finder Scene", () => {
     expect(asFragment()).toMatchSnapshot();
   });
 
-  it("Mount Scene with empty list", async () => {
+  it("Mount scene with empty list", async () => {
     vi.spyOn(service, "getHeroList").mockReturnValue(
       Promise.resolve({
         data: emptyHeroListMock,

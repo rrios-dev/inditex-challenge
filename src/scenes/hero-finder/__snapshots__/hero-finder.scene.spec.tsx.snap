@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Hero Finder Scene > Mount Scene with data 1`] = `
+exports[`Hero finder scene > Mount Scene with data 1`] = `
 <DocumentFragment>
   <main
     class="_hero-finder_366661 _flex_6eb20e _dir-column_6eb20e _gap-6_6eb20e"
@@ -2011,7 +2011,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Hero Finder Scene > Mount Scene with empty list 1`] = `
+exports[`Hero finder scene > Mount scene with empty list 1`] = `
 <DocumentFragment>
   <main
     class="_hero-finder_366661 _flex_6eb20e _dir-column_6eb20e _gap-6_6eb20e"

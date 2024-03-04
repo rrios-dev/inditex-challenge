@@ -1,0 +1,93 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header > column 1`] = `
+<DocumentFragment>
+  <header
+    class="_header_98091d"
+  >
+    <div
+      class="_container_98091d"
+    >
+      <a
+        aria-label="Go to hero finder"
+        class="_link_dbb513"
+        href="/"
+      >
+        <img
+          alt="Marvel logo"
+          data-nimg="1"
+          decoding="async"
+          fetchpriority="high"
+          height="52"
+          src="/img/marvel-logo.svg"
+          style="color: transparent;"
+          width="130"
+        />
+      </a>
+      <a
+        aria-label="Go to favs hero list"
+        class="_link_dbb513 _header-heart-link_3392a9"
+        href="/favs"
+      >
+        <img
+          alt="Empty heart"
+          data-nimg="1"
+          decoding="async"
+          height="22"
+          loading="lazy"
+          src="/icons/heart-empty.svg"
+          style="color: transparent;"
+          width="24"
+        />
+        0
+      </a>
+    </div>
+  </header>
+</DocumentFragment>
+`;
+
+exports[`Header > row 1`] = `
+<DocumentFragment>
+  <header
+    class="_header_98091d"
+  >
+    <div
+      class="_container_98091d"
+    >
+      <a
+        aria-label="Go to hero finder"
+        class="_link_dbb513"
+        href="/"
+      >
+        <img
+          alt="Marvel logo"
+          data-nimg="1"
+          decoding="async"
+          fetchpriority="high"
+          height="52"
+          src="/img/marvel-logo.svg"
+          style="color: transparent;"
+          width="130"
+        />
+      </a>
+      <a
+        aria-label="Go to favs hero list"
+        class="_link_dbb513 _header-heart-link_3392a9"
+        href="/favs"
+      >
+        <img
+          alt="Empty heart"
+          data-nimg="1"
+          decoding="async"
+          height="22"
+          loading="lazy"
+          src="/icons/heart-empty.svg"
+          style="color: transparent;"
+          width="24"
+        />
+        0
+      </a>
+    </div>
+  </header>
+</DocumentFragment>
+`;
