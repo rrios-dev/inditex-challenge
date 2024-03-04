@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Flex component > Align items > center 1`] = `
+exports[`Flex component > Align Items > center 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _align-center_6eb20e"
@@ -59,7 +59,7 @@ exports[`Flex component > Align items > center 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Align items > flex-end 1`] = `
+exports[`Flex component > Align Items > end 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _align-end_6eb20e"
@@ -118,7 +118,7 @@ exports[`Flex component > Align items > flex-end 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Align items > flex-start 1`] = `
+exports[`Flex component > Align Items > start 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _align-start_6eb20e"
@@ -177,7 +177,7 @@ exports[`Flex component > Align items > flex-start 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Align items > stretch 1`] = `
+exports[`Flex component > Align Items > stretch 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _align-stretch_6eb20e"
@@ -298,7 +298,7 @@ exports[`Flex component > Direction > column 1`] = `
 exports[`Flex component > Direction > row 1`] = `
 <DocumentFragment>
   <div
-    class="_flex_6eb20e"
+    class="_flex_6eb20e _dir-row_6eb20e"
   >
     <div
       class="_flex_6eb20e"
@@ -354,7 +354,7 @@ exports[`Flex component > Direction > row 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Gap > gap-1 1`] = `
+exports[`Flex component > Gap > 1 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _gap-1_6eb20e"
@@ -413,7 +413,7 @@ exports[`Flex component > Gap > gap-1 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Gap > gap-2 1`] = `
+exports[`Flex component > Gap > 2 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _gap-2_6eb20e"
@@ -472,7 +472,7 @@ exports[`Flex component > Gap > gap-2 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Gap > gap-3 1`] = `
+exports[`Flex component > Gap > 3 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _gap-3_6eb20e"
@@ -531,7 +531,7 @@ exports[`Flex component > Gap > gap-3 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Gap > gap-4 1`] = `
+exports[`Flex component > Gap > 4 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _gap-4_6eb20e"
@@ -590,7 +590,7 @@ exports[`Flex component > Gap > gap-4 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Gap > gap-5 1`] = `
+exports[`Flex component > Gap > 5 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _gap-5_6eb20e"
@@ -649,7 +649,7 @@ exports[`Flex component > Gap > gap-5 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Gap > gap-6 1`] = `
+exports[`Flex component > Gap > 6 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _gap-6_6eb20e"
@@ -708,7 +708,7 @@ exports[`Flex component > Gap > gap-6 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Gap > gap-7 1`] = `
+exports[`Flex component > Gap > 7 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _gap-7_6eb20e"
@@ -767,7 +767,7 @@ exports[`Flex component > Gap > gap-7 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Gap > gap-8 1`] = `
+exports[`Flex component > Gap > 8 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _gap-8_6eb20e"
@@ -826,7 +826,7 @@ exports[`Flex component > Gap > gap-8 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Gap > gap-9 1`] = `
+exports[`Flex component > Gap > 9 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _gap-9_6eb20e"
@@ -885,7 +885,7 @@ exports[`Flex component > Gap > gap-9 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Gap > gap-10 1`] = `
+exports[`Flex component > Gap > 10 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _gap-10_6eb20e"
@@ -944,7 +944,7 @@ exports[`Flex component > Gap > gap-10 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Gap > gap-11 1`] = `
+exports[`Flex component > Gap > 11 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _gap-11_6eb20e"
@@ -1003,10 +1003,128 @@ exports[`Flex component > Gap > gap-11 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Gap > gap-12 1`] = `
+exports[`Flex component > Gap > 12 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _gap-12_6eb20e"
+  >
+    <div
+      class="_flex_6eb20e"
+    >
+      0
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      1
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      2
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      3
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      4
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      5
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      6
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      7
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      8
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      9
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Flex component > Justify content > around 1`] = `
+<DocumentFragment>
+  <div
+    class="_flex_6eb20e _justify-around_6eb20e"
+  >
+    <div
+      class="_flex_6eb20e"
+    >
+      0
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      1
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      2
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      3
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      4
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      5
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      6
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      7
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      8
+    </div>
+    <div
+      class="_flex_6eb20e"
+    >
+      9
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Flex component > Justify content > between 1`] = `
+<DocumentFragment>
+  <div
+    class="_flex_6eb20e _justify-between_6eb20e"
   >
     <div
       class="_flex_6eb20e"
@@ -1121,7 +1239,7 @@ exports[`Flex component > Justify content > center 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Justify content > flex-end 1`] = `
+exports[`Flex component > Justify content > end 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _justify-end_6eb20e"
@@ -1180,7 +1298,7 @@ exports[`Flex component > Justify content > flex-end 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Justify content > flex-start 1`] = `
+exports[`Flex component > Justify content > start 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _justify-start_6eb20e"
@@ -1239,125 +1357,7 @@ exports[`Flex component > Justify content > flex-start 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Flex component > Justify content > space-around 1`] = `
-<DocumentFragment>
-  <div
-    class="_flex_6eb20e _justify-around_6eb20e"
-  >
-    <div
-      class="_flex_6eb20e"
-    >
-      0
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      1
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      2
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      3
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      4
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      5
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      6
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      7
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      8
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      9
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`Flex component > Justify content > space-between 1`] = `
-<DocumentFragment>
-  <div
-    class="_flex_6eb20e _justify-between_6eb20e"
-  >
-    <div
-      class="_flex_6eb20e"
-    >
-      0
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      1
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      2
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      3
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      4
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      5
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      6
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      7
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      8
-    </div>
-    <div
-      class="_flex_6eb20e"
-    >
-      9
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`Flex component > Wrap > no-wrap 1`] = `
+exports[`Flex component > Wrap > nowrap 1`] = `
 <DocumentFragment>
   <div
     class="_flex_6eb20e _wrap-nowrap_6eb20e"

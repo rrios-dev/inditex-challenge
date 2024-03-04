@@ -39,7 +39,7 @@ interface RootLayoutProps {
 
 const RootLayout = ({ children }: Readonly<RootLayoutProps>) => (
   <html lang="en">
-    <body aria-hidden className={cls(robotoCondensed.className, styles.root)}>
+    <body className={cls(robotoCondensed.className, styles.root)}>
       <ProgressBarProvider>
         <FavsProvider>
           <Header />
