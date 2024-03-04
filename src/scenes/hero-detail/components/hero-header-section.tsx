@@ -49,6 +49,7 @@ const HeroHeaderSection = () => {
               <Flex gap={4} justify="between" align="center">
                 <Typography variant="h1">{hero?.data?.name}</Typography>
                 <ButtonBase
+                  title={`Add ${hero.data?.name} to your favorites`}
                   onClick={() =>
                     toggle({
                       id: Number(id),

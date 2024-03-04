@@ -45,6 +45,7 @@ const HeroCard = (props: HeroCardProps) => {
   const { id, imageSrc, name, onFav, favVariant: favStatus } = props;
   return (
     <AnimatedLink
+      aria-label={`Go to hero ${name} detail`}
       ref={ref}
       className={styles["hero-card"]}
       href={`/hero/${id}-${name.replace(/(\s|\/|\\|\?)/g, "-").toLowerCase()}`}
@@ -62,6 +63,7 @@ const HeroCard = (props: HeroCardProps) => {
         </Typography>
         {isClient && (
           <ButtonBase
+            title={`Add ${name} to favorites`}
             className={styles["fav-button"]}
             onClick={(e) => {
               onFav(id);

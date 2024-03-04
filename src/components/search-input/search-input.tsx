@@ -50,7 +50,10 @@ const SearchInput = ({
         ) : (
           <>
             {onSearch ? (
-              <ButtonBase onClick={() => onSearch(ref.current?.value ?? "")}>
+              <ButtonBase
+                title="Search button"
+                onClick={() => onSearch(ref.current?.value ?? "")}
+              >
                 {image}
               </ButtonBase>
             ) : (

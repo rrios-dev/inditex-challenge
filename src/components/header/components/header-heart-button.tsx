@@ -14,7 +14,11 @@ const HeaderHeartButton = () => {
   } = useFavs();
   const isMounted = useIsClient();
   return (
-    <AnimatedLink className={styles["header-heart-link"]} href="/favs">
+    <AnimatedLink
+      aria-label="Go to favs hero list"
+      className={styles["header-heart-link"]}
+      href="/favs"
+    >
       {isMounted ? (
         <>
           <Heart variant={items.length > 0 ? "full-black" : "empty"} />

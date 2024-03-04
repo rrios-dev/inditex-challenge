@@ -8,7 +8,7 @@ import styles from "./header.module.scss";
 const Header = () => (
   <header className={styles.header}>
     <div className={styles.container}>
-      <AnimatedLink href="/">
+      <AnimatedLink aria-label="Go to hero finder" href="/">
         <Image
           priority
           src="/img/marvel-logo.svg"
