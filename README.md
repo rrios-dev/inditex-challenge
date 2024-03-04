@@ -53,11 +53,20 @@ Proper separation of responsibilities between components is essential. This allo
 ### Linting
 For the linting process we are using customised Eslint for NextJS projects.
 
-### Testing
+#### Commits
+Using Commitlint we maintain a mandatory commit format based on semantic commits.
 
-Vitets + Testing Library
+### Testing
+#### Vitets + Testing Library
 - Unit Tests
 - Integration Tests
+
+### Playwright
+- e2e
+
+*Remember that in order to run e2e tests with playwright you need to set up a local domain, set up the playwright configuration files and have the server running.*
+### Push Validation
+Husky is currently used in the project in such a way that with each push to the repository the project tests and a linting check will be passed.
 
 ### Fetching
 In this project we use [SWR](https://swr.vercel.app/) as a fetcher to simplify data recovery processes.
