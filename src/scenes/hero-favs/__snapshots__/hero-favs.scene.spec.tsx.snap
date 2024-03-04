@@ -1,0 +1,217 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Hero Favs Scene > Mount Scene with two favs 1`] = `
+<DocumentFragment>
+  <main
+    class="_hero-favs_06173e _flex_6eb20e _dir-column_6eb20e _gap-6_6eb20e"
+  >
+    <h1
+      class="sr-only"
+    >
+      Hero Favs
+    </h1>
+    <div
+      class="_flex_6eb20e _dir-column_6eb20e _gap-4_6eb20e"
+    >
+      <div
+        class="_search-input-container_2e7b85"
+      >
+        <img
+          alt="search item"
+          data-nimg="1"
+          decoding="async"
+          height="12"
+          loading="lazy"
+          src="/icons/search.svg"
+          style="color: transparent;"
+          width="12"
+        />
+        <label
+          class="sr-only"
+          for=":r0:"
+        >
+          Search
+        </label>
+        <input
+          class="_search-input_2e7b85"
+          id=":r0:"
+          placeholder="Search"
+          type="text"
+        />
+      </div>
+      <p
+        class="_typography_142002 _variant-caption_142002 color-fg"
+      >
+        2 RESULTS
+      </p>
+    </div>
+    <ul
+      class="_hero-selector_1d6cb9"
+    >
+      <li>
+        <a
+          class="_link_dbb513 _hero-card_5aadb9"
+          href="/hero/1009144-a.i.m."
+        >
+          <img
+            alt="Thumbnail image of the hero A.I.M."
+            class="_hero-card-image_5aadb9"
+            loading="lazy"
+            src="https://i.annihil.us/u/prod/marvel/i/mg/6/20/52602f21f29ec.jpg"
+          />
+          <hr />
+          <div
+            class="_bar_5aadb9"
+          >
+            <p
+              class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+            >
+              A.I.M.
+            </p>
+            <button
+              class="_button-base_31eab0 _fav-button_5aadb9"
+            >
+              <img
+                alt="Full heart"
+                data-nimg="1"
+                decoding="async"
+                height="10"
+                loading="lazy"
+                src="/icons/heart-full-black.svg"
+                style="color: transparent;"
+                width="12"
+              />
+            </button>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a
+          class="_link_dbb513 _hero-card_5aadb9"
+          href="/hero/1011164-alvin-maker"
+        >
+          <img
+            alt="Thumbnail image of the hero Alvin Maker"
+            class="_hero-card-image_5aadb9"
+            loading="lazy"
+            src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+          />
+          <hr />
+          <div
+            class="_bar_5aadb9"
+          >
+            <p
+              class="_typography_142002 _variant-body2_142002 color-fg _name_5aadb9"
+            >
+              Alvin Maker
+            </p>
+            <button
+              class="_button-base_31eab0 _fav-button_5aadb9"
+            >
+              <img
+                alt="Full heart"
+                data-nimg="1"
+                decoding="async"
+                height="10"
+                loading="lazy"
+                src="/icons/heart-full-black.svg"
+                style="color: transparent;"
+                width="12"
+              />
+            </button>
+          </div>
+        </a>
+      </li>
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+    </ul>
+  </main>
+</DocumentFragment>
+`;
+
+exports[`Hero Favs Scene > Mount Scene without result 1`] = `
+<DocumentFragment>
+  <main
+    class="_hero-favs_06173e _flex_6eb20e _dir-column_6eb20e _gap-6_6eb20e"
+  >
+    <h1
+      class="sr-only"
+    >
+      Hero Favs
+    </h1>
+    <div
+      class="_flex_6eb20e _dir-column_6eb20e _gap-4_6eb20e"
+    >
+      <div
+        class="_search-input-container_2e7b85"
+      >
+        <img
+          alt="search item"
+          data-nimg="1"
+          decoding="async"
+          height="12"
+          loading="lazy"
+          src="/icons/search.svg"
+          style="color: transparent;"
+          width="12"
+        />
+        <label
+          class="sr-only"
+          for=":r1:"
+        >
+          Search
+        </label>
+        <input
+          class="_search-input_2e7b85"
+          id=":r1:"
+          placeholder="Search"
+          type="text"
+        />
+      </div>
+      <p
+        class="_typography_142002 _variant-caption_142002 color-fg"
+      >
+        0 RESULT
+      </p>
+    </div>
+    <ul
+      class="_hero-selector_1d6cb9"
+    >
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+      <li
+        data-block="true"
+      />
+    </ul>
+  </main>
+</DocumentFragment>
+`;
