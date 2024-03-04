@@ -50,6 +50,7 @@ exports[`Hero Favs Scene > Mount Scene with two favs 1`] = `
     >
       <li>
         <a
+          aria-label="Go to hero A.I.M. detail"
           class="_link_dbb513 _hero-card_5aadb9"
           href="/hero/1009144-a.i.m."
         >
@@ -70,6 +71,7 @@ exports[`Hero Favs Scene > Mount Scene with two favs 1`] = `
             </p>
             <button
               class="_button-base_31eab0 _fav-button_5aadb9"
+              title="Add A.I.M. to favorites"
             >
               <img
                 alt="Full heart"
@@ -87,6 +89,7 @@ exports[`Hero Favs Scene > Mount Scene with two favs 1`] = `
       </li>
       <li>
         <a
+          aria-label="Go to hero Alvin Maker detail"
           class="_link_dbb513 _hero-card_5aadb9"
           href="/hero/1011164-alvin-maker"
         >
@@ -107,6 +110,7 @@ exports[`Hero Favs Scene > Mount Scene with two favs 1`] = `
             </p>
             <button
               class="_button-base_31eab0 _fav-button_5aadb9"
+              title="Add Alvin Maker to favorites"
             >
               <img
                 alt="Full heart"

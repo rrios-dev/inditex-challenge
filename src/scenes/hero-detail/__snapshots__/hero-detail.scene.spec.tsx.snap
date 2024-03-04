@@ -27,6 +27,7 @@ exports[`Hero Detail Scene > Mount Scene with data 1`] = `
             />
             <button
               class="_button-base_31eab0"
+              title="Add undefined to your favorites"
             >
               <img
                 alt="Empty heart"

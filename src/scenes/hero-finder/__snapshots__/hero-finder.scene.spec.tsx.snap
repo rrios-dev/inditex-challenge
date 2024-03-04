@@ -54,6 +54,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
       >
         <li>
           <a
+            aria-label="Go to hero 3-D Man detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011334-3-d-man"
           >
@@ -74,6 +75,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add 3-D Man to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -91,6 +93,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero A-Bomb (HAS) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1017100-a-bomb-(has)"
           >
@@ -111,6 +114,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add A-Bomb (HAS) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -128,6 +132,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero A.I.M. detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1009144-a.i.m."
           >
@@ -148,6 +153,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add A.I.M. to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -165,6 +171,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Aaron Stack detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1010699-aaron-stack"
           >
@@ -185,6 +192,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Aaron Stack to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -202,6 +210,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Abomination (Emil Blonsky) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1009146-abomination-(emil-blonsky)"
           >
@@ -222,6 +231,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Abomination (Emil Blonsky) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -239,6 +249,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Abomination (Ultimate) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1016823-abomination-(ultimate)"
           >
@@ -259,6 +270,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Abomination (Ultimate) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -276,6 +288,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Absorbing Man detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1009148-absorbing-man"
           >
@@ -296,6 +309,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Absorbing Man to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -313,6 +327,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Abyss detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1009149-abyss"
           >
@@ -333,6 +348,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Abyss to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -350,6 +366,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Abyss (Age of Apocalypse) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1010903-abyss-(age-of-apocalypse)"
           >
@@ -370,6 +387,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Abyss (Age of Apocalypse) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -387,6 +405,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Adam Destine detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011266-adam-destine"
           >
@@ -407,6 +426,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Adam Destine to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -424,6 +444,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Adam Warlock detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1010354-adam-warlock"
           >
@@ -444,6 +465,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Adam Warlock to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -461,6 +483,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Aegis (Trey Rollins) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1010846-aegis-(trey-rollins)"
           >
@@ -481,6 +504,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Aegis (Trey Rollins) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -498,6 +522,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Aero (Aero) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1017851-aero-(aero)"
           >
@@ -518,6 +543,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Aero (Aero) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -535,6 +561,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Agatha Harkness detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1012717-agatha-harkness"
           >
@@ -555,6 +582,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Agatha Harkness to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -572,6 +600,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Agent Brand detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011297-agent-brand"
           >
@@ -592,6 +621,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Agent Brand to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -609,6 +639,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Agent X (Nijo) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011031-agent-x-(nijo)"
           >
@@ -629,6 +660,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Agent X (Nijo) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -646,6 +678,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Agent Zero detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1009150-agent-zero"
           >
@@ -666,6 +699,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Agent Zero to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -683,6 +717,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Agents of Atlas detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011198-agents-of-atlas"
           >
@@ -703,6 +738,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Agents of Atlas to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -720,6 +756,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Aginar detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011175-aginar"
           >
@@ -740,6 +777,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Aginar to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -757,6 +795,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Air-Walker (Gabriel Lan) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011136-air-walker-(gabriel-lan)"
           >
@@ -777,6 +816,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Air-Walker (Gabriel Lan) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -794,6 +834,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Ajak detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011176-ajak"
           >
@@ -814,6 +855,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Ajak to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -831,6 +873,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Ajaxis detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1010870-ajaxis"
           >
@@ -851,6 +894,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Ajaxis to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -868,6 +912,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Akemi detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011194-akemi"
           >
@@ -888,6 +933,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Akemi to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -905,6 +951,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Alain detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011170-alain"
           >
@@ -925,6 +972,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Alain to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -942,6 +990,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Albert Cleary detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1009240-albert-cleary"
           >
@@ -962,6 +1011,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Albert Cleary to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -979,6 +1029,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Albion detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011120-albion"
           >
@@ -999,6 +1050,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Albion to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1016,6 +1068,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Alex Power detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1010836-alex-power"
           >
@@ -1036,6 +1089,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Alex Power to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1053,6 +1107,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Alex Wilder detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1010755-alex-wilder"
           >
@@ -1073,6 +1128,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Alex Wilder to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1090,6 +1146,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Alexa Mendez detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011214-alexa-mendez"
           >
@@ -1110,6 +1167,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Alexa Mendez to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1127,6 +1185,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Alexander Pierce detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1009497-alexander-pierce"
           >
@@ -1147,6 +1206,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Alexander Pierce to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1164,6 +1224,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Alice detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1014990-alice"
           >
@@ -1184,6 +1245,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Alice to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1201,6 +1263,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Alicia Masters detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1009435-alicia-masters"
           >
@@ -1221,6 +1284,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Alicia Masters to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1238,6 +1302,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Alpha Flight detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1010370-alpha-flight"
           >
@@ -1258,6 +1323,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Alpha Flight to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1275,6 +1341,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Alpha Flight (Ultimate) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011324-alpha-flight-(ultimate)"
           >
@@ -1295,6 +1362,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Alpha Flight (Ultimate) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1312,6 +1380,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Alvin Maker detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011164-alvin-maker"
           >
@@ -1332,6 +1401,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Alvin Maker to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1349,6 +1419,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Amadeus Cho detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011227-amadeus-cho"
           >
@@ -1369,6 +1440,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Amadeus Cho to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1386,6 +1458,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Amanda Sefton detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1009567-amanda-sefton"
           >
@@ -1406,6 +1479,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Amanda Sefton to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1423,6 +1497,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Amazoness detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011382-amazoness"
           >
@@ -1443,6 +1518,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Amazoness to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1460,6 +1536,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero American Eagle (Jason Strongbow) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011361-american-eagle-(jason-strongbow)"
           >
@@ -1480,6 +1557,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add American Eagle (Jason Strongbow) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1497,6 +1575,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Amiko detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1009151-amiko"
           >
@@ -1517,6 +1596,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Amiko to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1534,6 +1614,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Amora detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1010672-amora"
           >
@@ -1554,6 +1635,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Amora to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1571,6 +1653,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Amphibian (Earth-712) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1010673-amphibian-(earth-712)"
           >
@@ -1591,6 +1674,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Amphibian (Earth-712) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1608,6 +1692,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Amun detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1010905-amun"
           >
@@ -1628,6 +1713,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Amun to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1645,6 +1731,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Ancient One detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1009152-ancient-one"
           >
@@ -1665,6 +1752,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Ancient One to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1682,6 +1770,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Ancient One (Ultimate) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1016824-ancient-one-(ultimate)"
           >
@@ -1702,6 +1791,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Ancient One (Ultimate) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1719,6 +1809,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Angel (Angel Salvadore) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011684-angel-(angel-salvadore)"
           >
@@ -1739,6 +1830,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Angel (Angel Salvadore) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1756,6 +1848,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Angel (Thomas Halloway) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011396-angel-(thomas-halloway)"
           >
@@ -1776,6 +1869,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Angel (Thomas Halloway) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1793,6 +1887,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Angel (Ultimate) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1011338-angel-(ultimate)"
           >
@@ -1813,6 +1908,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Angel (Ultimate) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1830,6 +1926,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Angel (Warren Worthington III) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1009153-angel-(warren-worthington-iii)"
           >
@@ -1850,6 +1947,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Angel (Warren Worthington III) to favorites"
               >
                 <img
                   alt="Empty heart"
@@ -1867,6 +1965,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
         </li>
         <li>
           <a
+            aria-label="Go to hero Angela (Aldrif Odinsdottir) detail"
             class="_link_dbb513 _hero-card_5aadb9"
             href="/hero/1017574-angela-(aldrif-odinsdottir)"
           >
@@ -1887,6 +1986,7 @@ exports[`Hero Finder Scene > Mount Scene with data 1`] = `
               </p>
               <button
                 class="_button-base_31eab0 _fav-button_5aadb9"
+                title="Add Angela (Aldrif Odinsdottir) to favorites"
               >
                 <img
                   alt="Empty heart"
